@@ -7,6 +7,8 @@ body {
   margin-bottom: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  background-color: #e8e1c9;
+  color: #333333;
 }
 
 p {
@@ -19,18 +21,18 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 23px;
-  color: #4C5148;
+  color: #4c5148;
 }
 
 h2 {
   font-family: Georgia, "Times New Roman", serif;
-  color: #315C3D;
+  color: #315c3d;
   font-size: 24px;
   margin-bottom: 8px;
 }
 
 a {
-  color: #285B39;
+  color: #285b39;
 }
 
 a:hover {
@@ -38,24 +40,24 @@ a:hover {
 }
 
 .navcell {
-  background-color: #315C3D;
+  background-color: #315c3d;
   height: 34px;
 }
 
 .navcell a {
   font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 11px;
   font-weight: bold;
   text-decoration: none;
 }
 
 .navcell a:hover {
-  color: #FFF3B8;
+  color: #fff3b8;
 }
 
 .photo {
-  border: 1px solid #9E9475;
+  border: 1px solid #9e9475;
 }
 
 .footertext {
@@ -80,11 +82,11 @@ td {
 
 /* duplicate link rules from later update */
 a:link {
-  color: #285B39;
+  color: #285b39;
 }
 
 a:visited {
-  color: #6C4E32;
+  color: #6c4e32;
 }
 
 a:active {
