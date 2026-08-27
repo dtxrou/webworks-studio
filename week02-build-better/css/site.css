@@ -60,6 +60,11 @@ a:hover {
   border: 1px solid #9e9475;
 }
 
+.bullet-img {
+  height: 12px;
+  width: 12px;
+}
+
 .footertext {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
