@@ -2,33 +2,43 @@
    Last updated: 08/17/2000
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   background-color: #e5e1d3;
   color: #333333;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 1.4rem;
+  line-height: 2;
 }
 
 .intro {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1.6rem;
+  line-height: 2.3;
   color: #4c5148;
 }
 
 h2 {
   font-family: Georgia, "Times New Roman", serif;
   color: #315c3d;
-  font-size: 24px;
-  margin-bottom: 8px;
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
 }
 
 a {
@@ -41,13 +51,13 @@ a:hover {
 
 .navcell {
   background-color: #315c3d;
-  height: 34px;
+  height: 3.4rem;
 }
 
 .navcell a {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
-  font-size: 11px;
+  font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -61,20 +71,20 @@ a:hover {
 }
 
 .bullet-img {
-  height: 12px;
-  width: 12px;
+  height: 1.2rem;
+  width: 1.2rem;
 }
 
 .footertext {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
   color: #333333;
 }
 
 .footertext a {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .green {
@@ -83,7 +93,7 @@ a:hover {
 
 td {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 /* duplicate link rules from later update */
