@@ -259,3 +259,18 @@ a:visited {
 a:active {
   color: #993300;
 }
+
+/* ############## */
+/* Media Queries */
+/* ############## */
+
+/* BELOW 660PX */
+@media (max-width: 41.25rem) {
+  .grid-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .about-plant-grid {
+    grid-template-columns: 1fr;
+  }
+}
