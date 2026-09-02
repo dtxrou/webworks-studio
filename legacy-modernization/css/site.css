@@ -128,6 +128,33 @@ body {
   font-size: 1.3rem;
 }
 
+.photo {
+  border: 1px solid #9e9475;
+  width: 30rem;
+}
+
+/* ############## */
+/* Plants Section */
+/* ############## */
+
+.plant-cards {
+  margin-top: 1.5rem;
+}
+
+.plant-cards div {
+  background-color: #fff3b8;
+  padding: 1rem;
+  border: 2px solid #9e9475;
+}
+
+/* ############## */
+/* About Section */
+/* ############## */
+
+.grid-about {
+  grid-template-columns: 1fr 2fr;
+}
+
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
@@ -170,10 +197,6 @@ a:hover {
 
 .navcell a:hover {
   color: #fff3b8;
-}
-
-.photo {
-  border: 1px solid #9e9475;
 }
 
 .bullet-img {
