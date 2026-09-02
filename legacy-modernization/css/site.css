@@ -66,6 +66,7 @@ body {
 .site-header {
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0.1rem;
 }
 
 .img-logo {
@@ -225,23 +226,6 @@ a:hover {
   color: #993300;
 }
 
-.navcell {
-  background-color: #315c3d;
-  height: 3.4rem;
-}
-
-.navcell a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.navcell a:hover {
-  color: #fff3b8;
-}
-
 .bullet-img {
   height: 1.2rem;
   width: 1.2rem;
@@ -261,11 +245,6 @@ a:hover {
 
 .green {
   color: #315c3d;
-}
-
-td {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
 }
 
 /* duplicate link rules from later update */
