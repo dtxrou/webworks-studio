@@ -152,7 +152,37 @@ body {
 /* ############## */
 
 .grid-about {
+  grid-template-columns: 1fr 2.5fr;
+  gap: 2rem;
+}
+
+.quick-nav {
+  background-color: #fff3b8;
+  padding: 1rem;
+}
+
+.grid-service {
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+}
+
+.services p {
+  margin-top: 1.5rem;
+}
+
+.service-info {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #9e9475;
+}
+
+.about-plant-grid {
   grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.about-img {
+  width: 17rem;
 }
 
 p {
