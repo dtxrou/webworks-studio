@@ -55,15 +55,15 @@ The responsive problems i expect to address next week are fixed width issues, la
 
 ## Problem
 
-What failed in the week 2 layout were non responsive measurements.
+What failed in the week 2 layout were non responsive measurements, lack of modern tools like CSS and Flexbox, and inline spacing elements
 
 ## Solution
 
-The responsive change I made was changing px to rem, and adding CSS Grid and Flexbox.
+The responsive change I made was changing px to rem, and adding CSS Grid and Flexbox, and adding margins and padding for spacing
 
 ## Why
 
-This choice was appropriate as it meets the modern responsiveness standards, and makes code easier to read.
+This choice was appropriate as it meets the modern responsiveness standards, makes code easier to read, and ensures website code stays intact at smaller resolutions.
 
 ## Identify
 
