@@ -37,7 +37,9 @@ Refer to the Canvas assignment for all required technical work, GitHub workflow,
 
 ## Changed
 
-Improved syntax usage, removed inline styles, and cleared uneccessary code
+Improved syntax usage, removed inline styles, and cleared uneccessary code.
+
+Added Generic style rules, CSS Grid, Fkexbox, Media Queries, and responsive measurements.
 
 ## Why
 
@@ -50,6 +52,24 @@ Some fixed width layouts remain for week 3, so that I have the original size tha
 ## Next Sprint
 
 The responsive problems i expect to address next week are fixed width issues, layout and spacing issues, and general page organization
+
+## Problem
+
+What failed in the week 2 layout were non responsive measurements.
+
+## Solution
+
+The responsive change I made was changing px to rem, and adding CSS Grid and Flexbox.
+
+## Why
+
+This choice was appropriate as it meets the modern responsiveness standards, and makes code easier to read.
+
+## Identify
+
+My major grid use was for section layouts where there needed to be grids inside of a grid
+
+My major Flexbox use was for linearly placed elements such as the navigation bar
 
 ## Live URL
 
