@@ -56,7 +56,6 @@ body {
 
 .flex {
   display: flex;
-  gap: 3.2rem;
 }
 
 /* ############## */
@@ -84,12 +83,14 @@ body {
 /* ############## */
 
 .site-nav {
-  column-gap: 0.3rem;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .site-nav a {
   background-color: #315c3d;
-  padding: 1rem;
+  padding: 1rem 2.8rem 1rem;
   text-align: center;
 }
 
