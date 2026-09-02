@@ -46,7 +46,7 @@ body {
 /* ############## */
 
 .container {
-  max-width: 80rem;
+  max-width: 78rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   background-color: #fff;
@@ -121,7 +121,7 @@ body {
 }
 
 .summer-special {
-  background-color: #fff3b8;
+  background-color: #e5e1d3;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   padding-left: 0.5rem;
@@ -142,7 +142,7 @@ body {
 }
 
 .plant-cards div {
-  background-color: #fff3b8;
+  background-color: #e5e1d3;
   padding: 1rem;
   border: 2px solid #9e9475;
 }
@@ -157,7 +157,7 @@ body {
 }
 
 .quick-nav {
-  background-color: #fff3b8;
+  background-color: #e5e1d3;
   padding: 1rem;
 }
 
@@ -184,6 +184,19 @@ body {
 .about-img {
   width: 17rem;
 }
+
+/* ############## */
+/* Footer Section */
+/* ############## */
+
+.visit {
+  background-color: #e5e1d3;
+  padding: 1.2rem;
+}
+
+/* ############## */
+/* Generic Styles */
+/* ############## */
 
 p {
   font-family: Arial, Helvetica, sans-serif;
