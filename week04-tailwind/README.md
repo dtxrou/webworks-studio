@@ -48,8 +48,8 @@ Before submitting, replace the placeholders below with approximately three examp
 
 ### Decision 2
 
-**Used: Hover states**  
-**Why: To have a clear indicator for users when their mouse is over a link**
+**Used: Hover/focus states**  
+**Why: To have a clear indicator for users when their mouse or tab key is over a link**
 
 ### Decision 3
 
