@@ -59,6 +59,7 @@ Before submitting, replace the placeholders below with approximately three examp
 ## Live Site
 
 Add your published GitHub Pages URL here.
+https://dtxrou.github.io/webworks-studio/week04-tailwind/
 
 ## Reminder
 
