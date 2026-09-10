@@ -688,6 +688,21 @@
       color: var(--color-slate-50);
     }
   }
+  .focus\:bg-amber-900:focus {
+    background-color: var(--color-amber-900);
+  }
+  .focus\:bg-orange-50:focus {
+    background-color: var(--color-orange-50);
+  }
+  .focus\:bg-orange-100:focus {
+    background-color: var(--color-orange-100);
+  }
+  .focus\:text-amber-950:focus {
+    color: var(--color-amber-950);
+  }
+  .focus\:text-slate-50:focus {
+    color: var(--color-slate-50);
+  }
   @media (width >= 40rem) {
     .sm\:w-fit {
       width: fit-content;
