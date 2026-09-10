@@ -21,9 +21,9 @@
 
           <nav aria-label="Primary navigation">
             <ul class="flex gap-4">
-              <li><a href="#coffee">Coffee</a></li>
-              <li><a href="#story">Our Story</a></li>
-              <li><a href="#visit">Visit</a></li>
+              <li><a href="#coffee" class="hover:border-b">Coffee</a></li>
+              <li><a href="#story" class="hover:border-b">Our Story</a></li>
+              <li><a href="#visit" class="hover:border-b">Visit</a></li>
             </ul>
           </nav>
         </div>
@@ -31,7 +31,9 @@
 
       <main>
         <section>
-          <div class="grid grid-cols-3 bg-orange-100 p-8 px-12 align-middle">
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-2 bg-orange-100 p-8 px-12 align-middle"
+          >
             <div class="space-y-4 col-span-2 text-sm">
               <p class="font-medium text-orange-800">
                 Small-batch roasted in the Texas Hill Country
@@ -48,10 +50,14 @@
               </p>
 
               <div class="flex gap-2 font-medium uppercase">
-                <a href="#coffee" class="bg-amber-900 rounded p-1 text-slate-50"
+                <a
+                  href="#coffee"
+                  class="bg-amber-900 rounded p-1 text-slate-50 transition hover:bg-orange-100 hover:text-amber-950"
                   >Shop the roast lineup</a
                 >
-                <a href="#story" class="border-2 rounded p-1"
+                <a
+                  href="#story"
+                  class="border-2 rounded p-1 transition hover:bg-amber-900 hover:text-slate-50"
                   >Meet the roastery</a
                 >
               </div>
@@ -61,7 +67,7 @@
               <img
                 src="images/coffee-bag.svg"
                 alt="Illustration of a Hill and Hollow Coffee bag beside a ceramic mug"
-                class="rounded-2xl w-auto"
+                class="rounded-2xl max-w-sm mx-auto shadow-sm"
               />
             </div>
           </div>
@@ -69,13 +75,17 @@
 
         <section id="coffee">
           <div class="bg-amber-50 space-y-4 p-7">
-            <p>Roast Lineup</p>
+            <p class="uppercase font-semibold text-sm text-orange-800">
+              Roast Lineup
+            </p>
             <h2 class="text-2xl font-medium">
               Three coffees. Zero existential crisis.
             </h2>
 
-            <div class="grid grid-cols-3 gap-8">
-              <article class="bg-slate-50 p-2 rounded-2xl border-3">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+              <article
+                class="bg-slate-50 p-2 rounded-2xl border-3 flex flex-col gap-3 shadow-xl"
+              >
                 <p class="font-bold mb-2">Medium Roast</p>
                 <h3 class="font-medium">Front Porch</h3>
                 <p>
@@ -83,10 +93,16 @@
                   almond, and brown sugar.
                 </p>
                 <p>12 oz · Whole Bean</p>
-                <a href="#visit" class="align-bottom">Find it at the shop</a>
+                <a
+                  href="#visit"
+                  class="bg-orange-100 p-2 rounded-md font-medium mt-auto transition hover:bg-orange-50"
+                  >Find it at the shop</a
+                >
               </article>
 
-              <article class="bg-slate-50 p-2 rounded-2xl border-3 flex gap-3">
+              <article
+                class="bg-slate-50 p-2 rounded-2xl border-3 flex flex-col gap-3 shadow-xl"
+              >
                 <p class="font-bold mb-2">Light Roast</p>
                 <h3 class="font-medium">Daybreak</h3>
                 <p>
@@ -96,12 +112,14 @@
                 <p>12 oz · Whole Bean</p>
                 <a
                   href="#visit"
-                  class="bg-orange-100 p-2 rounded-md justify-end"
+                  class="bg-orange-100 p-2 rounded-md font-medium mt-auto transition hover:bg-orange-50"
                   >Find it at the shop</a
                 >
               </article>
 
-              <article class="bg-slate-50 p-2 rounded-2xl border-3">
+              <article
+                class="bg-slate-50 p-2 rounded-2xl border-3 flex flex-col gap-3 shadow-xl"
+              >
                 <p class="font-bold mb-2">Dark Roast</p>
                 <h3 class="font-medium">Last Light</h3>
                 <p>
@@ -109,24 +127,28 @@
                   smoke.
                 </p>
                 <p>12 oz · Whole Bean</p>
-                <a href="#visit">Find it at the shop</a>
+                <a
+                  href="#visit"
+                  class="bg-orange-100 p-2 rounded-md font-medium mt-auto transition hover:bg-orange-50"
+                  >Find it at the shop</a
+                >
               </article>
             </div>
           </div>
         </section>
 
         <section id="story">
-          <div class="grid grid-cols-2 gap-8 p-4 bg-orange-100">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-4 bg-orange-100">
             <div class="my-auto">
               <img
                 src="images/roastery.svg"
                 alt="Illustration of a small coffee roastery with sacks, shelves, and a roasting machine"
-                class="rounded"
+                class="rounded mx-auto max-w-1/2 md:max-w-fit shadow-md"
               />
             </div>
 
             <div class="space-y-4 text-sm">
-              <p class="text-amber-950 uppercase font-medium">Our Story</p>
+              <p class="text-orange-800 uppercase font-medium">Our Story</p>
               <h2 class="text-3xl font-medium">Roasted for normal mornings.</h2>
               <p>
                 Hill &amp; Hollow started with a simple idea: specialty coffee
@@ -153,23 +175,23 @@
               Why Hill &amp; Hollow?
             </p>
 
-            <div class="grid grid-cols-3 gap-7">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-7">
               <article
-                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2"
+                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2 shadow-xl"
               >
                 <h3 class="font-medium">Fresh</h3>
                 <p>Roasted in small batches and dated clearly.</p>
               </article>
 
               <article
-                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2"
+                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2 shadow-xl"
               >
                 <h3 class="font-medium">Simple</h3>
                 <p>A focused lineup instead of 47 nearly identical bags.</p>
               </article>
 
               <article
-                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2"
+                class="bg-slate-50 rounded-2xl border-3 border-orange-100 p-2 space-y-2 shadow-xl"
               >
                 <h3 class="font-medium">Local</h3>
                 <p>Roasted and packed in the Texas Hill Country.</p>
@@ -179,8 +201,8 @@
         </section>
 
         <section id="visit">
-          <div class="grid grid-cols-3 p-8 gap-8 bg-orange-100">
-            <div class="col-span-2 my-auto">
+          <div class="grid grid-cols-2 md:grid-cols-3 p-8 gap-8 bg-orange-100">
+            <div class="md:col-span-2 my-auto">
               <p class="font-bold text-xl mb-2">Visit the Roastery</p>
               <h2 class="font-bold">Come smell what we're roasting.</h2>
               <p>
