@@ -26,3 +26,68 @@
   If you find yourself writing large overrides or repeated !important
   declarations, reconsider your Bootstrap structure/classes first.
 */
+
+.navbar,
+.footer {
+  background-color: #203c35;
+}
+.navbar a {
+  color: #fff;
+}
+
+.hero,
+#contact {
+  background-color: #f5f0e7;
+}
+
+.btn-main:link,
+.btn-main:visited {
+  color: #fff;
+  background-color: #203c35;
+  border: #203c35 solid 1px;
+}
+
+.btn-main:hover,
+.btn-main:active {
+  color: #203c35;
+  background-color: #f5f0e7;
+}
+.btn-second:link,
+.btn-second:visited {
+  color: #203c35;
+  background-color: #f5f0e7;
+  border: #203c35 solid 1px;
+}
+
+.btn-second:hover,
+.btn-second:active {
+  color: #fff;
+  background-color: #203c35;
+}
+.attention-text {
+  color: #a86643;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-text,
+p {
+  color: #203c35;
+}
+
+#process {
+  background-color: #e8efeb;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.list-circle {
+  background-color: #203c35;
+  padding: 0.5rem;
+  max-width: 2.5rem;
+  border-radius: 50rem;
+  text-align: center;
+  color: #fff;
+}
