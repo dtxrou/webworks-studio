@@ -39,6 +39,10 @@
 #contact {
   background-color: #f5f0e7;
 }
+.btn:focus,
+a:focus {
+  outline: #a86643 5px solid;
+}
 
 .btn-main:link,
 .btn-main:visited {
