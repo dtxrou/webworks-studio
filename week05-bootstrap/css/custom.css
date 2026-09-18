@@ -41,7 +41,8 @@
 }
 .btn:focus,
 a:focus,
-.navbar-toggler:focus {
+.navbar-toggler:focus,
+.navbar-toggler:hover {
   outline: #a86643 5px solid;
 }
 
