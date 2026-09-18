@@ -40,7 +40,8 @@
   background-color: #f5f0e7;
 }
 .btn:focus,
-a:focus {
+a:focus,
+.navbar-toggler:focus {
   outline: #a86643 5px solid;
 }
 
