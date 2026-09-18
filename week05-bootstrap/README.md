@@ -115,7 +115,7 @@ Complete all three responses below. Keep each response concise and specific to *
 
 **Identify one feature Bootstrap made significantly faster to implement. Briefly explain what Bootstrap provided and why that helped this project.**
 
-[One feature Bootstrap made significantly faster is the ability to create card windows faster. This helped in this project as the client wanted a section with cards on the page, and this allowed me to create that section with ease and with the appropriate styling.]
+[One feature Bootstrap made significantly faster is the ability to create a toggle state navigation bar, Bootstrap provided the necessary code and JavaScript featured to make an interactable navigation element, this helped the project not only in time saved, but also with helping the page look cleaner at smaller widths, reducing clutter and increasing accessibility]
 
 ## 2. Adaptation
 
