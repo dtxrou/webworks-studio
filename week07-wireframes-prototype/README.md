@@ -60,10 +60,10 @@ Mobile: [https://www.figma.com/proto/bIymHKjsvVE42gB6lSB8YX/Assignment--Module-7
 
 Describe the user task your prototype demonstrates.
 
-**Starting point:**  
-**User action:**  
-**System/interface response:**  
-**End state:**
+**Starting point: CTA Hero section**  
+**User action: Follows the flow down and looks at trail cards where the filter button is, and interacts with the filter, or the GPS and map button at the bottom of the card**  
+**System/interface response: Filter button reveals a dropdown with options to narrow their trail search, and GPS Button expands to show an image of the trail's map, Google Map GPS link, and link to the trail's website and contact imformation**  
+**End state: Plan for your trip section at the bottom of the page with tips and information useful to know before hiking on the trails**
 
 ---
 
@@ -73,21 +73,21 @@ Document approximately three important decisions.
 
 ### Decision 1
 
-**Problem:**  
-**Design response:**  
-**Why:**
+**Problem: Lack of CTA to guide user**  
+**Design response: Simplified and emphasized finding a trail from the start, and reduced number of buttons seen**  
+**Why: To effectively guide Maya to their next destination of finding a trail without any confusion**
 
 ### Decision 2
 
-**Problem:**  
-**Design response:**  
-**Why:**
+**Problem: No visible way to discern trail time and difficulty**  
+**Design response: Added trail time, and difficuty to the trail cards, as well as added a filter button to search for trails with those criterias**  
+**Why: So Maya can find a trail that is under 3 hours, and is easy to traverse**
 
 ### Decision 3
 
-**Problem:**  
-**Design response:**  
-**Why:**
+**Problem: No GPS and map information**  
+**Design response: Added a show GPS and map information button to trail cards that when pressed, reveals a map of the trail, as well as Google Maps GPS Link, and a link to the trail's website and contact**  
+**Why: So Maya can screenshot the map of the trail for when there is no service, and so that she can see Google reviews of the trail to send to her hiking buddy and plan her trip accordingly**
 
 ---
 
@@ -97,11 +97,11 @@ Document at least two accessibility decisions you planned before development.
 
 ### Accessibility Decision 1
 
-[Write here.]
+[Creating a mobile version of the site]
 
 ### Accessibility Decision 2
 
-[Write here.]
+[Clarified flow for keyboard users and for users to navigate site easier]
 
 ---
 
