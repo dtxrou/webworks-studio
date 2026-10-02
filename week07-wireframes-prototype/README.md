@@ -41,7 +41,9 @@ Translate your **top three Week 6 priorities** into exactly three interface requ
 
 ## 3. Figma Prototype Link
 
-[Paste viewable prototype link here.]
+Desktop: [https://www.figma.com/proto/bIymHKjsvVE42gB6lSB8YX/Assignment--Module-7?node-id=0-1&t=eIxAfzrwFERgzozX-1]
+
+Mobile: [https://www.figma.com/proto/bIymHKjsvVE42gB6lSB8YX/Assignment--Module-7?node-id=11-400&t=eIxAfzrwFERgzozX-1]
 
 ---
 
