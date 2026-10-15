@@ -161,13 +161,13 @@ Incorporating Alpine and Preline components to make content easier for visitors 
 ## Alpine Decision
 
 **User/client need:**  
-TODO
+Simplified and direct way to explore featured markers
 
 **Alpine directives used:**  
-TODO
+x-data, x-show, x-transition
 
 **Why Alpine was appropriate:**  
-TODO
+Alpine was appropriate to build a comprehensive modal that would display what the user wants to see when pressing a corresponding button
 
 ## Preline Decision
 
@@ -182,26 +182,26 @@ Implemented original content into the accordion button text and foreground text,
 
 ## Accessibility Notes
 
-1. TODO
+1. Alpine modal focus states with keyboard work when opening, and closing modal
 2. Preline hover states and keyboard controls work with implemented accordion
 
 ## Testing Notes
 
-**Narrow viewport:** Implemented components adapted to fit screen width  
-**Medium viewport:** Implemented components adapted to fit screen width  
+**Narrow viewport:** Implemented components adapted to fit screen width, and aligns vertically  
+**Medium viewport:** Implemented components adapted to fit screen width, and aligns horizontally  
 **Wide viewport:** Implemented components adapted to fit screen width  
-**Keyboard testing:** Keyboard controls work with implemented components  
+**Keyboard testing:** Keyboard controls work with implemented components when opening and closing  
 **Browser console:** Browser console shows no errors
 
 ## Dependencies
 
-**Alpine.js — how used:** TODO  
+**Alpine.js — how used:** Alpine was used to create a modal to have a direct interaction to display the information the user is looking for when pressing modal buttons, cleaning up visual clutter
 **Preline UI — how used:** Preline used to simplify visitor questions section information by incorporating original content into an accordion component  
 **Tailwind CSS — how used:** Tailwind CSS used to style components in the same way provided content was styled, such as text, font-styles, and colors
 
 ## Official Documentation Used
 
-- Alpine.js: TODO
+- Alpine.js: https://alpinejs.dev/start-here, https://alpinejs.dev/component/modal
 - Preline UI: https://preline.co/docs/components/accordion.html
 
 # Official References

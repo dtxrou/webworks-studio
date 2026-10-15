@@ -138,16 +138,6 @@
           </p>
         </div>
 
-        <!-- TODO: REQUIRED ALPINE INTERACTION
-           Add one purposeful Alpine-powered exploration tool here.
-           Requirements:
-           - x-data
-           - at least one user event
-           - at least one additional reactive directive
-           - visible, understandable interface response
-           - semantic, keyboard-accessible controls
-           Do NOT simply paste the classroom playground unchanged. -->
-
         <div
           class="mt-8 rounded-xl border-2 border-dashed border-[#7da59c] bg-[#eef5f4] p-5"
         >
@@ -160,11 +150,13 @@
           </p>
         </div>
 
-        <div class="flex mt-8 justify-center gap-3">
+        <div
+          class="flex flex-col mt-8 items-center md:justify-center align-items gap-3 focus:ring-4 md:flex-row"
+        >
           <div x-data="{ show: false }">
             <button
               @click="show = true"
-              class="px-6 py-4 bg-[#246b63] text-white rounded-md"
+              class="px-6 py-4 bg-[#246b63] text-white rounded-md focus:outline-none focus:ring-4 focus:ring-[#000]"
             >
               Ceramics
             </button>
@@ -188,7 +180,7 @@
               >
                 <button
                   @click="show = false"
-                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600"
+                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-4 focus:ring-[#000]"
                 >
                   ✕
                 </button>
@@ -225,7 +217,7 @@
           <div x-data="{ show: false }">
             <button
               @click="show = true"
-              class="px-6 py-4 bg-[#246b63] text-white rounded-md"
+              class="px-6 py-4 bg-[#246b63] text-white rounded-md focus:outline-none focus:ring-4 focus:ring-[#000]"
             >
               Printmaking
             </button>
@@ -249,7 +241,7 @@
               >
                 <button
                   @click="show = false"
-                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600"
+                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-4 focus:ring-[#000]"
                 >
                   ✕
                 </button>
@@ -286,7 +278,7 @@
           <div x-data="{ show: false }">
             <button
               @click="show = true"
-              class="px-6 py-4 bg-[#246b63] text-white rounded-md"
+              class="px-6 py-4 bg-[#246b63] text-white rounded-md focus:outline-none focus:ring-4 focus:ring-[#000]"
             >
               Textiles
             </button>
@@ -310,7 +302,7 @@
               >
                 <button
                   @click="show = false"
-                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600"
+                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-4 focus:ring-[#000]"
                 >
                   ✕
                 </button>
@@ -347,7 +339,7 @@
           <div x-data="{ show: false }">
             <button
               @click="show = true"
-              class="px-6 py-4 bg-[#246b63] text-white rounded-md"
+              class="px-6 py-4 bg-[#246b63] text-white rounded-md focus:outline-none focus:ring-4 focus:ring-[#000]"
             >
               Woodcraft
             </button>
@@ -371,7 +363,7 @@
               >
                 <button
                   @click="show = false"
-                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600"
+                  class="absolute right-4 top-4 text-slate-400 hover:text-slate-600 focus:outline-none focus:ring-4 focus:ring-[#000]"
                 >
                   ✕
                 </button>
@@ -405,111 +397,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <article
-            data-category="ceramics"
-            class="overflow-hidden rounded-2xl border border-stone-300 bg-white shadow-sm"
-          >
-            <img
-              src="images/ceramics.svg"
-              alt="Handmade ceramic mugs displayed at a market table"
-              class="aspect-[3/2] w-full object-cover"
-            />
-            <div class="p-5">
-              <p
-                class="text-sm font-bold uppercase tracking-wide text-[#246b63]"
-              >
-                Ceramics
-              </p>
-              <h3 class="mt-2 text-xl font-bold text-[#142b3a]">
-                Cielo Clay Studio
-              </h3>
-              <p class="mt-2 text-sm leading-6 text-slate-600">
-                Small-batch mugs, bowls, and serving pieces inspired by desert
-                colors and South Texas skies.
-              </p>
-              <p class="mt-4 text-sm"><strong>Booth:</strong> A12</p>
-            </div>
-          </article>
-
-          <article
-            data-category="prints"
-            class="overflow-hidden rounded-2xl border border-stone-300 bg-white shadow-sm"
-          >
-            <img
-              src="images/printmaking.svg"
-              alt="Colorful art prints hanging in a local maker booth"
-              class="aspect-[3/2] w-full object-cover"
-            />
-            <div class="p-5">
-              <p
-                class="text-sm font-bold uppercase tracking-wide text-[#246b63]"
-              >
-                Printmaking
-              </p>
-              <h3 class="mt-2 text-xl font-bold text-[#142b3a]">
-                Rio Press Co.
-              </h3>
-              <p class="mt-2 text-sm leading-6 text-slate-600">
-                Hand-pulled prints featuring native plants, neighborhood
-                architecture, and regional landmarks.
-              </p>
-              <p class="mt-4 text-sm"><strong>Booth:</strong> B04</p>
-            </div>
-          </article>
-
-          <article
-            data-category="textiles"
-            class="overflow-hidden rounded-2xl border border-stone-300 bg-white shadow-sm"
-          >
-            <img
-              src="images/textiles.svg"
-              alt="Handwoven textiles and fabric goods at a market stand"
-              class="aspect-[3/2] w-full object-cover"
-            />
-            <div class="p-5">
-              <p
-                class="text-sm font-bold uppercase tracking-wide text-[#246b63]"
-              >
-                Textiles
-              </p>
-              <h3 class="mt-2 text-xl font-bold text-[#142b3a]">
-                Luna Loom Works
-              </h3>
-              <p class="mt-2 text-sm leading-6 text-slate-600">
-                Handwoven scarves, table runners, and small home goods in
-                natural fibers and muted colors.
-              </p>
-              <p class="mt-4 text-sm"><strong>Booth:</strong> C07</p>
-            </div>
-          </article>
-
-          <article
-            data-category="woodcraft"
-            class="overflow-hidden rounded-2xl border border-stone-300 bg-white shadow-sm"
-          >
-            <img
-              src="images/woodcraft.svg"
-              alt="Handcrafted wooden serving boards on display"
-              class="aspect-[3/2] w-full object-cover"
-            />
-            <div class="p-5">
-              <p
-                class="text-sm font-bold uppercase tracking-wide text-[#246b63]"
-              >
-                Woodcraft
-              </p>
-              <h3 class="mt-2 text-xl font-bold text-[#142b3a]">
-                Mesquite &amp; Main
-              </h3>
-              <p class="mt-2 text-sm leading-6 text-slate-600">
-                Serving boards, trays, and small household pieces made from
-                reclaimed and locally sourced wood.
-              </p>
-              <p class="mt-4 text-sm"><strong>Booth:</strong> D03</p>
-            </div>
-          </article>
-        </div> -->
       </section>
 
       <section
