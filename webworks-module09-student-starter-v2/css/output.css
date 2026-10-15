@@ -990,10 +990,19 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .transition-\[height\] {
+    transition-property: height;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
   .transition-all {
     transition-property: all;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+  .duration-300 {
+    --tw-duration: 300ms;
+    transition-duration: 300ms;
   }
   .duration-500 {
     --tw-duration: 500ms;
@@ -1121,6 +1130,9 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  .focus\:ring-inset:focus {
+    --tw-ring-inset: inset;
+  }
   .disabled\:pointer-events-none:disabled {
     pointer-events: none;
   }
@@ -1229,6 +1241,48 @@
     .dark\:focus\:text-neutral-300:focus {
       color: var(--color-neutral-300);
     }
+  }
+  .hs-accordion-active\:block.hs-accordion.active {
+    display: block;
+  }
+  .hs-accordion.active > .hs-accordion-active\:block {
+    display: block;
+  }
+  .hs-accordion.active > .hs-accordion-toggle .hs-accordion-active\:block {
+    display: block;
+  }
+  .hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:block {
+    display: block;
+  }
+  .hs-accordion.active > .hs-accordion-active\:block.hs-accordion-toggle {
+    display: block;
+  }
+  .hs-accordion.active > .hs-accordion-heading > .hs-accordion-active\:block.hs-accordion-toggle {
+    display: block;
+  }
+  .hs-accordion.active .hs-accordion-active\:block.hs-accordion-force-active {
+    display: block;
+  }
+  .hs-accordion-active\:hidden.hs-accordion.active {
+    display: none;
+  }
+  .hs-accordion.active > .hs-accordion-active\:hidden {
+    display: none;
+  }
+  .hs-accordion.active > .hs-accordion-toggle .hs-accordion-active\:hidden {
+    display: none;
+  }
+  .hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:hidden {
+    display: none;
+  }
+  .hs-accordion.active > .hs-accordion-active\:hidden.hs-accordion-toggle {
+    display: none;
+  }
+  .hs-accordion.active > .hs-accordion-heading > .hs-accordion-active\:hidden.hs-accordion-toggle {
+    display: none;
+  }
+  .hs-accordion.active .hs-accordion-active\:hidden.hs-accordion-force-active {
+    display: none;
   }
   .hs-selected\:block.selected {
     display: block;

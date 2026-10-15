@@ -1,4 +1,5 @@
 # WebWorks Studio — Module 9 Student Starter
+
 ## Mission City Makers Market
 
 You are the **Junior Front-End Developer** assigned to improve a fictional client page using two different professional tools:
@@ -171,37 +172,37 @@ TODO
 ## Preline Decision
 
 **Preline component selected:**  
-TODO
+Accordion component
 
 **Problem it solves:**  
-TODO
+Simplifies content into a component that is easier to view, reducing visual clutter
 
 **How you adapted it:**  
-TODO
+Implemented original content into the accordion button text and foreground text, and added original styling for the content it belonged to
 
 ## Accessibility Notes
 
 1. TODO
-2. TODO
+2. Preline hover states and keyboard controls work with implemented accordion
 
 ## Testing Notes
 
-**Narrow viewport:** TODO  
-**Medium viewport:** TODO  
-**Wide viewport:** TODO  
-**Keyboard testing:** TODO  
-**Browser console:** TODO
+**Narrow viewport:** Implemented components adapted to fit screen width  
+**Medium viewport:** Implemented components adapted to fit screen width  
+**Wide viewport:** Implemented components adapted to fit screen width  
+**Keyboard testing:** Keyboard controls work with implemented components  
+**Browser console:** Browser console shows no errors
 
 ## Dependencies
 
 **Alpine.js — how used:** TODO  
-**Preline UI — how used:** TODO  
-**Tailwind CSS — how used:** TODO
+**Preline UI — how used:** Preline used to simplify visitor questions section information by incorporating original content into an accordion component  
+**Tailwind CSS — how used:** Tailwind CSS used to style components in the same way provided content was styled, such as text, font-styles, and colors
 
 ## Official Documentation Used
 
 - Alpine.js: TODO
-- Preline UI: TODO
+- Preline UI: https://preline.co/docs/components/accordion.html
 
 # Official References
 
