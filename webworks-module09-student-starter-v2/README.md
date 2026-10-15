@@ -156,7 +156,7 @@ Replace each TODO before submitting.
 
 ## Project Summary
 
-TODO
+Incorporating Alpine and Preline components to make content easier for visitors to explore and use the site
 
 ## Alpine Decision
 
