@@ -14,16 +14,15 @@
   Do not hard-code one specific service into this component.
 */
 
-function ServiceCard(/* props go here */) {
+function ServiceCard({ categoryLabel, title, description, detail }) {
   return (
     <article className="service-card">
-      {/* Replace these placeholders with prop values. */}
-      <p className="service-category">Category</p>
-      <h3>Service title</h3>
-      <p>Service description</p>
-      <p className="service-detail">Supporting detail</p>
+      <p className="service-category">{categoryLabel}</p>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <p className="service-detail">{detail}</p>
     </article>
-  )
+  );
 }
 
-export default ServiceCard
+export default ServiceCard;
