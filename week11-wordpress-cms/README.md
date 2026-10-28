@@ -79,25 +79,25 @@ Complete `CLIENT-UPDATE.md` after the primary site build, then document the resu
 
 Briefly identify the client change you completed.
 
-[Write here.]
+[Changes the Community Workshops description in the Programs page]
 
 ## Where I Made the Update
 
 What WordPress content-editing area did you use?
 
-[Write here.]
+[I used the WordPress content-editing in the paragraph area of the Community Workshops Description]
 
 ## Structure Check
 
 Did you need to modify the header, footer, navigation, template, template part, or reusable pattern? Explain.
 
-[Write here.]
+[I did not need to modify any of the following, all I simply needed to do was replace the original text with the new supplied text]
 
 ## Maintainability Result
 
 Explain how this update demonstrates that routine content can change without rebuilding the site's global structure.
 
-[Write 2–4 sentences here.]
+[This update demonstrates that routine content can change without rebuilding the sites global structure by not needing to modify any of the page's structure. You can make simple content changes without impacting the pages elements and overall layout]
 
 ---
 
@@ -107,23 +107,23 @@ Document the quality checks you completed.
 
 ## Headings
 
-[Briefly explain how you verified logical heading structure.]
+[I verified logical heading structure by following client content structure]
 
 ## Images
 
-[Briefly explain how you handled meaningful alternative text.]
+[I handled meaningful alternative text by using WordPress default alt values, and adding descriptive alt text to images that I added]
 
 ## Links & Buttons
 
-[Briefly explain how you checked link/button text.]
+[I checked link/buttons by checking if they work properly, match supplied client content, and by using keyboard navigation]
 
 ## Keyboard
 
-[Briefly explain how you tested keyboard navigation and visible focus.]
+[I tested keyboard navigation and visible focus states by tabbing through the page and using enter to tap on links or buttons]
 
 ## Responsive Layout
 
-[Briefly explain how you checked narrow-screen behavior.]
+[I checked narrow-screen behavior by shrinking my browser size, and by using the browser and WordPress tools to display the site at various mobile ratios]
 
 ---
 
@@ -165,25 +165,25 @@ Keep each response concise and specific to this project.
 
 Why is WordPress an appropriate solution for Southtown Community Arts?
 
-[Write 2–4 sentences here.]
+[WordPress is an appropriate solution for Southtown Community Arts by allowing them to easily create pre-structured pages with their own content. It is also a good solution as they can easily update the post section without extensive knowledge of WordPress]
 
 ## Editable Content
 
 What information should Southtown Community Arts staff be able to update routinely?
 
-[Write 2–4 sentences here.]
+[The Southtown Community Arts staff should be able to update the post section information routinely. The post is easy to update at any moment and will not give less experienced WordPress users any trouble]
 
 ## Reusable Structure
 
 What site element did you make reusable or site-wide, and why?
 
-[Write 2–4 sentences here.]
+[The site element I made reusable was the page's CTA since it is a repeating element among the pages and it is a good idea to have consistent styling this way. I also used the footer section site-wide to maintain site style consistency]
 
 ## Client Protection
 
 What design or architecture decision helps the site remain consistent when staff members make routine updates?
 
-[Write 2–4 sentences here.]
+[Using a post section for updating information helps keep the site remain the same by having static page information separate from content that would be updated in the future. Having similar page layouts and global elements helps keep this consistency among the pages, even if there is a big content change]
 
 ---
 
