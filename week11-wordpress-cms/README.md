@@ -8,49 +8,51 @@
 
 Briefly summarize what you configured in WordPress.
 
-[Write 2–3 sentences here.]
+[I configured a home, about, programs, and post pages with client provided content. The pages structure is assembled using wordpress pre designed layouts.]
 
 ---
 
 ## WordPress Site Access
 
 **Site URL or instructor-access information:**  
-[Add the site URL or access information provided by your instructor.]
+[https://susane40.sg-host.com/]
 
 ---
 
 # Content Architecture
 
-Explain how you organized the supplied client content.
+I organized the supplied client content by using pre designed wordpress templates that would match the provided client content properly.
 
 ## Pages
 
 List the Pages you created and briefly explain why they belong as Pages.
 
-- **Home:** [Explain]
-- **Programs:** [Explain]
-- **About:** [Explain]
+- **Home:** [The Southtown Community Arts page belongs as a brief opener to Southtown Community Arts, and the programs it has to offer]
+
+- **Programs:** [The Programs page is a more in depth page for users to learn about the programs available and what they are about]
+
+- **About:** [The About Southtown Community Arts page belongs as a brief statement and values section to strengthen the connection to users and guide them to the programs page]
 
 ## Post
 
-**News Post:** [Add the post title]
+**News Post:** [Fall Workshop Registration Opens September 3]
 
 Explain why this content belongs as a Post rather than a Page.
 
-[Write your response here.]
+[This content belongs as a post since it will not be static information, and may be updated over time to display new relevant information]
 
 ---
 
 # Reusable Pattern
 
 **Pattern Name:**  
-[Add the pattern name.]
+[Southtown - Program Callout]
 
 **Used For:**  
-[Describe the repeated content structure.]
+[This repeated conent structure is used for call to action sections]
 
 **Why a Pattern Was Appropriate:**  
-[Explain why this content should be reusable.]
+[This content should be reusable as the CTA should be consistent to the site content, especially since there is a CTA section in most of the site pages]
 
 ---
 
@@ -59,13 +61,13 @@ Explain why this content belongs as a Post rather than a Page.
 Describe the required Site Editor change you completed.
 
 **Change:**  
-[Describe the change.]
+[The change I completed is adding a global site footer]
 
 **Where It Was Made:**  
-[Header, footer, navigation, template part, etc.]
+[This change was made in the footer block of the pages]
 
 **Why It Belongs at the Site Level:**  
-[Explain why this should affect multiple pages rather than one page only.]
+[This should affect multiple pages since a site footer should remain consistent across the pages. This helps tie the pages together, and ensure the user can view contact information for Southtown Community Arts]
 
 ---
 
