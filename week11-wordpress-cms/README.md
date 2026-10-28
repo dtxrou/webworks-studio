@@ -187,6 +187,14 @@ What design or architecture decision helps the site remain consistent when staff
 
 ---
 
+# CMS Reflection
+
+What kinds of websites or client situations benefit from a CMS such as WordPress? What does a CMS make easier, and what tradeoffs does it introduce compared with a hand-coded static site?
+
+[Static webstites and clients that need an updatable news post benefit from a CMS such as WordPress. A CMS makes page structuring and layout easy to use with their pre-made page layouts and content sections, you can change the images as needed or even generate new ones with the use of AI. The tradoffs it introduces when compared to a hand-coded static site are the loss of complete styling freedom, you will also tradeoff fluid page structuring since CMS's use prebuilt layouts and fixed block patterns and styling limit the placing of elements]
+
+---
+
 # Final Handoff Check
 
 - [ ] Home, Programs, and About are published as Pages.
