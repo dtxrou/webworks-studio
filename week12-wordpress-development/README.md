@@ -7,7 +7,7 @@
 
 Briefly summarize how you customized the existing Week 11 CMS without making routine content harder for the client to maintain.
 
-[Write 2–3 sentences here.]
+[My customizations included simple color and typography changes, as well as spacing changes. This way, the site looks more in line with branding, and does not heavily interfere with maintaining content.]
 
 ---
 
@@ -18,51 +18,51 @@ Document the four required decisions below.
 ## 1. Global Design System
 
 **Requirement:**  
-[Which Southtown brand requirements were site-wide?]
+[Color and typography.]
 
 **Location:**  
-[Global Styles / theme-level controls]
+[Global styles.]
 
 **Change:**  
-[What did you change?]
+[Heading, button, link, typography and colors.]
 
 **Why this level:**  
-[Why was a global solution better than editing pages individually?]
+[A global solution was better since it maintains consistency across the site]
 
 **QA:**  
-[What did you test after the global change?]
+[I tested if all headings, buttons, and links changed appropriately across the site.]
 
 ---
 
 ## 2. Branded Reusable Pattern
 
 **Pattern:**  
-[Name the pattern.]
+[Southtown - Program Callout]
 
 **Change:**  
-[What visual/system changes did you make?]
+[Visual changes to the heading and button elements.]
 
 **Reuse:**  
-[Where did you reuse or verify the pattern?]
+[I verified the pattern in the Programs page.]
 
 **Editor value:**  
-[How does this help a future editor update content without rebuilding the design?]
+[This helps a future editor update content by having a repeatable element that can easily be customizable and will change in all places it is implemented in if customizations are made.]
 
 ---
 
 ## 3. Site-Wide Structure Customization
 
 **Shared area:**  
-[Header, footer, navigation, or other shared structure.]
+[Header area.]
 
 **Change:**  
-[What did you customize?]
+[Increased line height and font weight to bold.]
 
 **Why this level:**  
-[Why did the change belong in shared site structure rather than on one Page?]
+[This change belonged in the shared site structure to maintain style consistency across the site.]
 
 **QA:**  
-[Which pages did you check afterward?]
+[I checked the programs , home, and about pages to ensure style changes were implemented for all headers in the pages.]
 
 ---
 
@@ -71,25 +71,27 @@ Document the four required decisions below.
 Complete **one** option.
 
 **Option used:**  
-[theme.json OR targeted CSS]
+[Targeted CSS.]
 
 **Location:**  
-[Where the modification lives in the supplied environment.]
+[Custom Link.]
 
 **Code / configuration snippet:**
 
-```text
-Paste only the small relevant snippet here.
+```
+&:hover {
+  color: #c7855a;
+}
 ```
 
 **Reason:**  
-[What legitimate requirement could not be solved cleanly through the available editor/global controls?]
+[There is no hover state color change style option for the navigation links at the top of the page.]
 
 **Documentation:**  
-[Which official WordPress reference helped you understand the change?]
+[https://wordpress.org/documentation/article/styles-overview/#site-wide-custom-css]
 
 **QA:**  
-[How did you verify the change worked without creating new problems?]
+[I verified my changes worked without causing problems by loading each page and testing the hover state for the navigation links.]
 
 ---
 
@@ -97,26 +99,28 @@ Paste only the small relevant snippet here.
 
 ## Visitor Experience
 
-- [ ] I tested narrow and wide viewport behavior.
-- [ ] I checked visual consistency on more than one page.
-- [ ] I checked text/link/button contrast.
-- [ ] I verified visible keyboard focus.
-- [ ] I tested navigation and links.
-- [ ] I checked that the brand system is consistent rather than page-specific.
+- [ y ] I tested narrow and wide viewport behavior.
+- [ y ] I checked visual consistency on more than one page.
+- [ y ] I checked text/link/button contrast.
+- [ y ] I verified visible keyboard focus.
+- [ y ] I tested navigation and links.
+- [ y ] I checked that the brand system is consistent rather than page-specific.
 
 ### Visitor QA Notes
-[Briefly describe one issue you found or one important verification you made.]
+
+[One important verification I made was making sure visibility and styling changes remained consistent and adapted well across different screen widths.]
 
 ## Editor Experience
 
-- [ ] Routine content is still editable through WordPress.
-- [ ] The branded pattern is understandable to reuse/edit.
-- [ ] My customization did not move ordinary client content into code.
-- [ ] I performed one temporary routine content edit, previewed it, and restored the original content.
-- [ ] The site remained visually coherent after the editor test.
+- [ y ] Routine content is still editable through WordPress.
+- [ y ] The branded pattern is understandable to reuse/edit.
+- [ y ] My customization did not move ordinary client content into code.
+- [ y ] I performed one temporary routine content edit, previewed it, and restored the original content.
+- [ y ] The site remained visually coherent after the editor test.
 
 ### Editor QA Notes
-[Briefly describe the update you tested and what you verified.]
+
+[Updated header text in the Southtown Community Arts home page. Styling changes carry over and does not prevent changes to content.]
 
 ---
 
