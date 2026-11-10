@@ -3,8 +3,8 @@
 **WebWorks Studio**  
 **Week 13: Kick Off the Client Project — Discovery & Planning**
 
-**Student:** [Your Name]  
-**Date:** [Date]
+**Student:** [Dorian Trevino]  
+**Date:** [11-9-2026]
 
 > Complete this document using evidence from the supplied client brief, personas, approved content, and course requirements. Do not invent missing client facts.
 
@@ -42,19 +42,19 @@ Identify the three most important business goals.
 
 ## Goal 2
 
-**Goal:**  
+**Goal:**
 
-**Why it matters:**  
+**Why it matters:**
 
-**Evidence:**  
+**Evidence:**
 
 ## Goal 3
 
-**Goal:**  
+**Goal:**
 
-**Why it matters:**  
+**Why it matters:**
 
-**Evidence:**  
+**Evidence:**
 
 ---
 
@@ -65,37 +65,37 @@ Identify the three most important business goals.
 **Context:**  
 [Briefly summarize relevant context.]
 
-**Primary goal:**  
+**Primary goal:**
 
-**Important information/tasks:**  
+**Important information/tasks:**
 
-**Likely friction:**  
+**Likely friction:**
 
-**Design/accessibility implication:**  
+**Design/accessibility implication:**
 
 ## Daniel — Hill Country Visitor
 
-**Context:**  
+**Context:**
 
-**Primary goal:**  
+**Primary goal:**
 
-**Important information/tasks:**  
+**Important information/tasks:**
 
-**Likely friction:**  
+**Likely friction:**
 
-**Design/accessibility implication:**  
+**Design/accessibility implication:**
 
 ## Renee — Deliberate Planner
 
-**Context:**  
+**Context:**
 
-**Primary goal:**  
+**Primary goal:**
 
-**Important information/tasks:**  
+**Important information/tasks:**
 
-**Likely friction:**  
+**Likely friction:**
 
-**Design/accessibility implication:**  
+**Design/accessibility implication:**
 
 ---
 
@@ -124,12 +124,12 @@ Use:
 Rank the most important things visitors need to accomplish.
 
 | Priority | User Task | Primary Persona(s) | Why It Matters |
-|---|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+| -------- | --------- | ------------------ | -------------- |
+| 1        |           |                    |                |
+| 2        |           |                    |                |
+| 3        |           |                    |                |
+| 4        |           |                    |                |
+| 5        |           |                    |                |
 
 ---
 
@@ -139,13 +139,13 @@ Identify the content the client has supplied, what is still missing, and how rel
 
 At this stage, focus on **content and purpose**, not page layout.
 
-| Content / Proposed Section | Primary Purpose | Primary User Task | Supplied Content / Assets | Missing / Needed | MVP or Future |
-|---|---|---|---|---|---|
-| Home / introductory content |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| Content / Proposed Section  | Primary Purpose | Primary User Task | Supplied Content / Assets | Missing / Needed | MVP or Future |
+| --------------------------- | --------------- | ----------------- | ------------------------- | ---------------- | ------------- |
+| Home / introductory content |                 |                   |                           |                  |               |
+|                             |                 |                   |                           |                  |               |
+|                             |                 |                   |                           |                  |               |
+|                             |                 |                   |                           |                  |               |
+|                             |                 |                   |                           |                  |               |
 
 Add rows if necessary.
 
@@ -224,11 +224,11 @@ At minimum, address:
 
 List the smallest responsible final site that meets priority goals.
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
 Explain briefly why this scope is achievable and sufficient:
 
@@ -241,10 +241,10 @@ Explain briefly why this scope is achievable and sufficient:
 Record useful ideas that are not required for this course launch.
 
 | Idea | Why It Is Not in the MVP |
-|---|---|
-|  |  |
-|  |  |
-|  |  |
+| ---- | ------------------------ |
+|      |                          |
+|      |                          |
+|      |                          |
 
 Remember: out of scope does not mean “bad idea.”
 
@@ -290,33 +290,33 @@ Choose technologies based on project needs.
 
 ## HTML
 
-**Approach:**  
+**Approach:**
 
-**Reason:**  
+**Reason:**
 
 ## CSS
 
-**Approach / framework, if any:**  
+**Approach / framework, if any:**
 
-**Reason:**  
+**Reason:**
 
 ## JavaScript
 
 **Needed?** Yes / No / Limited
 
-**Planned use:**  
+**Planned use:**
 
-**Reason:**  
+**Reason:**
 
 ## Libraries / Components
 
-**Needed?**  
+**Needed?**
 
-**If yes, what and why?**  
+**If yes, what and why?**
 
 ## GitHub / Deployment
 
-**Approach:**  
+**Approach:**
 
 ## Technologies Considered but Not Selected
 
@@ -328,12 +328,12 @@ Choose technologies based on project needs.
 
 Plan the major checkpoints for the remaining client-project sprints. Keep these at the milestone level rather than listing every small task.
 
-| Milestone | What Should Be True at This Point | Key Dependency |
-|---|---|---|
-| Production ready |  |  |
-| Core site built |  |  |
-| QA / refinement ready |  |  |
-| Final delivery ready |  |  |
+| Milestone             | What Should Be True at This Point | Key Dependency |
+| --------------------- | --------------------------------- | -------------- |
+| Production ready      |                                   |                |
+| Core site built       |                                   |                |
+| QA / refinement ready |                                   |                |
+| Final delivery ready  |                                   |                |
 
 ---
 
@@ -341,11 +341,11 @@ Plan the major checkpoints for the remaining client-project sprints. Keep these 
 
 Identify at least three.
 
-| Risk / Dependency | Impact | Likelihood | Response / Mitigation |
-|---|---|---|---|
-|  | Low / Medium / High | Low / Medium / High |  |
-|  | Low / Medium / High | Low / Medium / High |  |
-|  | Low / Medium / High | Low / Medium / High |  |
+| Risk / Dependency | Impact              | Likelihood          | Response / Mitigation |
+| ----------------- | ------------------- | ------------------- | --------------------- |
+|                   | Low / Medium / High | Low / Medium / High |                       |
+|                   | Low / Medium / High | Low / Medium / High |                       |
+|                   | Low / Medium / High | Low / Medium / High |                       |
 
 ---
 
@@ -360,15 +360,15 @@ Use:
 - **Status:** To Do
 
 | Task | Priority | Effort | Dependency | Status |
-|---|---|---|---|---|
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
-|  |  |  |  | To Do |
+| ---- | -------- | ------ | ---------- | ------ |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
+|      |          |        |            | To Do  |
 
 Add rows as necessary.
 
@@ -429,9 +429,9 @@ Before Hill Country Coffee can be considered complete:
 
 Record anything that would need client/instructor clarification.
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 Do not silently turn unanswered questions into invented facts.
 
