@@ -21,7 +21,7 @@ In approximately 100–150 words, summarize:
 - who the site serves;
 - the central problem WebWorks Studio needs to solve.
 
-[Write your summary here.]
+[Hill Country Coffee is an independent regional coffee company in Central Texas serving espresso drinks, brewed coffee, cold beverages, teas, and café food. Their current web presence has grown inconsistently over time: important information is difficult to scan on a phone, visual presentation is inconsistent, and customers struggle to find basic information quickly. The site serves local regulars, visitors exploring the Texas Hill Country, and people who want to review offerings before visiting. The central problem WebWorks Studio must solve is making practical visit information—hours, locations, menu—easy to find across all devices while communicating the brand's warm, relaxed, distinctly local character without clutter, formality, or unnecessary complexity.]
 
 ---
 
@@ -32,29 +32,29 @@ Identify the three most important business goals.
 ## Goal 1 — Highest Priority
 
 **Goal:**  
-[Write the outcome.]
+[Make location and hours information easy to find on mobile devices.]
 
 **Why it matters:**  
-[Explain.]
+[The client's #1 stated priority is mobile usability, and their #2 is that location/hours be easy to find. Maya (the mobile regular) and Daniel (the visitor) both need this information quickly, often while on the go. If customers cannot find hours or a location, they will not visit.]
 
 **Evidence from the brief:**  
-[Identify the supporting client information.]
+["Mobile usability is important" (Priority 1); "Location and hours information should be easy to find" (Priority 2); Maya's friction includes "hours are buried" and "navigation labels are vague."]
 
 ## Goal 2
 
-**Goal:**
+**Goal: Present the menu in a scannable, accessible format.**
 
-**Why it matters:**
+**Why it matters: All three personas need to review or confirm menu offerings. The client explicitly states the menu should be easy to scan. A menu that relies on images, PDFs, or dense text will frustrate Maya (small screen), Daniel (quick evaluation), and Renee (readable detail).**
 
-**Evidence:**
+**Evidence: "The menu should be easy to scan" (Priority 3); Renee's friction includes "menus depend on tiny PDF documents or images"; Daniel's friction includes "important information appears only inside images."**
 
 ## Goal 3
 
-**Goal:**
+**Goal: Communicate the brand's warm, local, relaxed character without getting in the user's way.**
 
-**Why it matters:**
+**Why it matters: Daniel arrives cold and needs to understand what kind of place this is before deciding to visit. Renee wants to understand atmosphere and values. The client wants the site to feel current and professional without being corporate, luxury, or cluttered. The brand must be present but not obstructive.**
 
-**Evidence:**
+**Evidence: "The site should communicate the brand without getting in the user's way" (Priority 4); brand direction keywords (warm, relaxed, handcrafted, local, contemporary, welcoming, distinctly Central Texas); "understand what makes Hill Country Coffee distinctive" (project goal).**
 
 ---
 
@@ -63,39 +63,39 @@ Identify the three most important business goals.
 ## Maya — Mobile Regular
 
 **Context:**  
-[Briefly summarize relevant context.]
+[Local regular who visits several times per month and uses the website from her phone while already out, often with a specific task in mind]
 
-**Primary goal:**
+**Primary goal: Confirm hours and find the nearest café information quickly.**
 
-**Important information/tasks:**
+**Important information/tasks: Opening hours, nearest location details, availability of a familiar drink or food item.**
 
-**Likely friction:**
+**Likely friction: Hours buried in the page; vague navigation labels; promotional material loading before useful information; menu difficult to scan on a small screen.**
 
-**Design/accessibility implication:**
+**Design/accessibility implication: Fast scanning, clear visual hierarchy, touch-friendly controls, readable text size, and predictable navigation are essential.**
 
 ## Daniel — Hill Country Visitor
 
-**Context:**
+**Context: First-time visitor exploring Central Texas who searches online for local coffee shops while planning a day trip; may arrive from a search engine rather than the Home page.**
 
-**Primary goal:**
+**Primary goal: Understand what kind of place Hill Country Coffee is and decide whether it fits his plans.**
 
-**Important information/tasks:**
+**Important information/tasks: Brand character and atmosphere, location information with context, general menu overview, confidence that information is current.**
 
-**Likely friction:**
+**Likely friction: Site assumes familiarity with the business; location information lacks context; navigation uses clever but unclear labels; important information exists only inside images.**
 
-**Design/accessibility implication:**
+**Design/accessibility implication: Content must make sense regardless of entry page. Important information must be available as real HTML text, not embedded only in graphics.**
 
 ## Renee — Deliberate Planner
 
-**Context:**
+**Context: Meets friends at local cafés but prefers to review options before choosing; reads more than Maya or Daniel; uses both desktop and mobile; may zoom or increase browser text size.**
 
-**Primary goal:**
+**Primary goal: Review menu categories and understand the café's atmosphere before committing to a visit.**
 
-**Important information/tasks:**
+**Important information/tasks: Menu categories and specific choices, atmosphere and values, shareable information for a friend.**
 
-**Likely friction:**
+**Likely friction: Small or low-contrast text; layouts that break when text is enlarged; menus delivered as PDFs or images; links like "click here" that provide no context.**
 
-**Design/accessibility implication:**
+**Design/accessibility implication: Readable contrast, flexible layouts that accommodate enlarged text, meaningful headings, descriptive link text, and information that remains usable at increased sizes.**
 
 ---
 
@@ -107,15 +107,15 @@ Use:
 
 ## Maya
 
-[Write the statement.]
+[Maya needs a way to quickly confirm hours and find the nearest café from her phone so that she can make a stop without navigating through several pages.]
 
 ## Daniel
 
-[Write the statement.]
+[Daniel needs a way to understand what Hill Country Coffee is like and find location information from any entry point so that he can decide whether to visit and feel confident the information is current.]
 
 ## Renee
 
-[Write the statement.]
+[Renee needs a way to review menu categories and understand the café's atmosphere in a clear, readable format so that she can plan a visit and share useful information with a friend.]
 
 ---
 
@@ -125,11 +125,16 @@ Rank the most important things visitors need to accomplish.
 
 | Priority | User Task | Primary Persona(s) | Why It Matters |
 | -------- | --------- | ------------------ | -------------- |
-| 1        |           |                    |                |
-| 2        |           |                    |                |
-| 3        |           |                    |                |
-| 4        |           |                    |                |
-| 5        |           |                    |                |
+
+| 1 | Find hours and location information | Maya, Daniel | Maya and Daniel's most common real-world task |
+
+| 2 | Scan the menu (categories and items) | Maya, Daniel, Renee | All three personas need it |
+
+| 3 | Understand the brand and character of the business | Daniel, Renee | Needed for first-time visitors and deliberate planners |
+
+| 4 | Find a specific drink or food item | Maya, Renee | Regulars checking availability; planners reviewing options |
+
+| 5 | Navigate between key sections without confusion | Maya, Daniel, Renee | Supports every other task; vague navigation is a shared friction point |
 
 ---
 
