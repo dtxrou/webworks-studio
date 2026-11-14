@@ -144,13 +144,17 @@ Identify the content the client has supplied, what is still missing, and how rel
 
 At this stage, focus on **content and purpose**, not page layout.
 
-| Content / Proposed Section  | Primary Purpose | Primary User Task | Supplied Content / Assets | Missing / Needed | MVP or Future |
-| --------------------------- | --------------- | ----------------- | ------------------------- | ---------------- | ------------- |
-| Home / introductory content |                 |                   |                           |                  |               |
-|                             |                 |                   |                           |                  |               |
-|                             |                 |                   |                           |                  |               |
-|                             |                 |                   |                           |                  |               |
-|                             |                 |                   |                           |                  |               |
+| Content / Proposed Section  | Primary Purpose                                              | Primary User Task            | Supplied Content / Assets                                   | Missing / Needed                | MVP or Future |
+| --------------------------- | ------------------------------------------------------------ | ---------------------------- | ----------------------------------------------------------- | ------------------------------- | ------------- |
+| Home / introductory content | Communicate brand character; direct visitors to key sections | Understand what the place is | Company description, brand statement, approved CTA language | Final photography, hero imagery | MVP           |
+
+| Menu | Display drink and food categories in a scannable format | Scan offerings; find a specific item | Three approved categories with item names (no prices or descriptions) | Final menu descriptions, prices, dietary/allergen info | MVP |
+
+| Locations | Provide café address, hours, and contact info | Find nearest café; confirm hours | None (explicitly a content dependency) | Final addresses, phone numbers, business hours, location imagery | MVP |
+
+| About | Communicate values and local connection | Understand the business and its character | About content (five values: quality, hospitality, community, simplicity, local connection) | Final photography | MVP |
+
+| Visit / Contact information | Support planning a visit | Plan a visit; get in touch | Approved CTA language ("Plan Your Visit," "Find a Location") | Final social links, any additional contact details | MVP |
 
 Add rows if necessary.
 
@@ -158,7 +162,13 @@ Add rows if necessary.
 
 Briefly explain the major content groups you identified and why related information belongs together.
 
-[Write your explanation here.]
+[Home serves as the entry point that communicates brand at a glance and provides clear paths to the other three sections, supporting both Daniel (arriving cold) and Maya (arriving with a task).
+
+Menu groups all beverage and food categories (Espresso & Coffee, Tea & Other Drinks, Café Food) together because all three personas' primary task involves scanning or reviewing offerings. Keeping them on one section avoids splitting a single task across multiple pages.
+
+Locations groups address, hours, phone, and map/imagery together because Maya and Daniel's #1 task is practical visit information, and it makes no sense to separate hours from the location they belong to.
+
+About groups the brand story, values, and local connection because Daniel and Renee need to understand the character of the business, and the approved about content is short enough to live in one place.]
 
 ---
 
@@ -166,12 +176,17 @@ Briefly explain the major content groups you identified and why related informat
 
 Write testable statements beginning with **The site must...**
 
-1. The site must...
-2. The site must...
-3. The site must...
-4. The site must...
-5. The site must...
-6. The site must...
+1. The site must...display location and hours information reachable within one navigation step from any page.
+
+2. The site must...present all menu items as scannable HTML text (not embedded in images or PDF documents).
+
+3. The site must...be fully responsive and usable at small viewport widths, and medium viewports without horizontal scrolling caused by the layout.
+
+4. The site must...use clear, descriptive navigation labels that a first-time visitor can understand without prior knowledge of the business.
+
+5. The site must...present all important information (hours, menu items, addresses) as real HTML text, not as text embedded inside images.
+
+6. The site must...remain fully usable when browser text is enlarged without layout breakage or loss of content.
 
 Add additional requirements only when they are supported by the project.
 
@@ -185,43 +200,43 @@ At minimum, address:
 
 ## Semantic Structure
 
-[Requirement.]
+[The site must use appropriate HTML5 landmark and structural elements (header, nav, main, section, article, footer) to convey document structure to assistive technology.]
 
 ## Heading Structure
 
-[Requirement.]
+[Each page must have exactly one h1, and headings must follow a logical hierarchical order (no skipped levels) that reflects the content organization.]
 
 ## Keyboard Access
 
-[Requirement.]
+[All interactive elements (links, buttons, navigation toggle) must be reachable and fully operable using only a keyboard, in a logical tab order.]
 
 ## Visible Focus
 
-[Requirement.]
+[Every focusable element must display a visible focus indicator that is clearly distinguishable from the surrounding content and does not rely on color alone.]
 
 ## Color Contrast
 
-[Requirement.]
+[All body text must meet WCAG AA contrast ratio against its background. Interactive elements must be distinguishable from adjacent content.]
 
 ## Images / Alternative Text
 
-[Requirement.]
+[Meaningful images must have descriptive alt text that conveys their function or content. Decorative images must use alt="". No important information (hours, menu items, addresses) may exist only within an image.]
 
 ## Links & Buttons
 
-[Requirement.]
+[Link and button text must be descriptive of the destination or action (e.g., "View the Menu" not "click here"). Links must make sense when read out of context.]
 
 ## Responsive Reflow / Zoom
 
-[Requirement.]
+[The site must remain fully usable and readable at 200% browser zoom and at a minimum viewport width of 320 px, with no horizontal scrolling caused by the layout and no loss of content.]
 
 ## Interactive Components / Forms
 
-[Requirement, or explain if not currently in MVP.]
+[No forms are in the MVP. If any form is added in a future sprint, it must have programmatically associated labels, visible error messages, and full keyboard operability.]
 
 ## Accessibility QA
 
-[How will accessibility be checked before final delivery?]
+[Before final delivery, the site will be tested using: keyboard-only navigation of every page; a screen reader (NVDA or VoiceOver) to verify semantic structure and reading order; a contrast checking tool on all text and interactive elements; browser zoom at 200% on all pages; and a narrow-viewport reflow check.]
 
 ---
 
@@ -229,15 +244,21 @@ At minimum, address:
 
 List the smallest responsible final site that meets priority goals.
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ Home page with brand introduction and clear navigation to all primary sections ]
+
+- [ Menu page displaying all three approved categories (Espresso & Coffee, Tea & Other Drinks, Café Food) as scannable HTML text ]
+
+- [ Locations page with structure ready for final address, hours, and contact information ]
+
+- [ About page communicating the five approved values and local connection ]
+
+- [ Responsive, mobile-first layout tested at narrow (320 px) and wide (1280 px+) viewports ]
+
+- [ Accessible semantic HTML: correct heading hierarchy, alt text strategy, keyboard access, visible focus, AA contrast ]
 
 Explain briefly why this scope is achievable and sufficient:
 
-[Write your explanation.]
+[The site is four primary pages of largely static content with no dynamic functionality, forms, or third-party integrations. All copy for Home, Menu categories, and About is already supplied. The only content dependency is Locations (address/hours), which can be structured with clearly-marked placeholders until the client supplies final details. This scope directly addresses the three prioritized business goals and is realistic to build, test, and maintain within the remaining sprints.]
 
 ---
 
@@ -245,11 +266,21 @@ Explain briefly why this scope is achievable and sufficient:
 
 Record useful ideas that are not required for this course launch.
 
-| Idea | Why It Is Not in the MVP |
-| ---- | ------------------------ |
-|      |                          |
-|      |                          |
-|      |                          |
+| Idea                         | Why It Is Not in the MVP                                       |
+| ---------------------------- | -------------------------------------------------------------- |
+| Online ordering / e-commerce | Not requested by client; no requirements or platform specified |
+
+| Customer accounts / loyalty program Not requested; adds complexity without a documented user need |
+
+| Online table reservations | Not requested; no reservation platform identified |
+
+| Newsletter signup | No platform specified; not a stated client priority |
+
+| Social media API integrations | Not requested; static links (if supplied) are sufficient |
+
+| Live inventory / real-time availability | No data source; not a stated client need |
+
+| Blog or news section | Not requested; would add ongoing maintenance the client wants to avoid |
 
 Remember: out of scope does not mean “bad idea.”
 
@@ -274,18 +305,16 @@ You may use an indented text sitemap, a simple diagram, or another clear format 
 
 ```text
 Home
-├── [Page]
-├── [Page]
-│   ├── [Child page, if needed]
-│   └── [Child page, if needed]
-└── [Page]
+├── Menu
+├── Locations
+└── About
 ```
 
 ## Information Architecture Rationale
 
 In a short paragraph, explain how this structure supports the priority user tasks and keeps important information easy to find.
 
-[Write your explanation here.]
+[This flat, four-page structure places each priority user task exactly one navigation step from Home. It mirrors the recognizable patterns Daniel explicitly looks for ("Menu, Locations, About, and Hours"). No nested pages are needed because the content volume per section is small and self-contained. A flat structure minimizes navigation friction for Maya (who wants speed on a phone), keeps the site simple to maintain per the client's constraint, and ensures that no important information is buried more than one click away. Hours and location details live together under Locations, satisfying the requirement that practical visit info be easy to find. About has more brand identity and provides users with more additional information about the business as well as contact information.]
 
 ---
 
@@ -295,37 +324,41 @@ Choose technologies based on project needs.
 
 ## HTML
 
-**Approach:**
+**Approach: Semantic HTML5 with proper landmark elements and heading hierarchy.**
 
-**Reason:**
+**Reason: Semantic HTML is the foundation for accessibility (screen reader support, keyboard navigation, document outline).**
 
 ## CSS
 
-**Approach / framework, if any:**
+**Approach / framework, if any: Hand-written CSS, mobile-first, no framework.**
 
-**Reason:**
+**Reason: The site is four pages of static content. A framework (Bootstrap, Tailwind) would add unnecessary weight, abstraction, and maintenance complexity. Hand-written CSS is easier to explain, easier to maintain, and sufficient for the layout needs. Mobile-first aligns directly with the client's top priority.**
 
 ## JavaScript
 
-**Needed?** Yes / No / Limited
+**Needed?: Limited**
 
-**Planned use:**
+**Planned use: A small script for a mobile navigation toggle (hamburger menu) if the nav does not fit at narrow widths. No other interactivity.**
 
-**Reason:**
+**Reason: The site has no forms, no dynamic content, no integrations, and no user-generated content. The only likely need is a nav toggle. Everything else is achievable with HTML and CSS alone.**
 
 ## Libraries / Components
 
-**Needed?**
+**Needed?: No**
 
 **If yes, what and why?**
 
 ## GitHub / Deployment
 
-**Approach:**
+**Approach: Source files maintained in a GitHub repository. Deploy via GitHub Pages.**
 
 ## Technologies Considered but Not Selected
 
-[List any important option you considered and why it is unnecessary or inappropriate.]
+[CSS frameworks (Bootstrap, Tailwind). Unnecessary for a 4-page static site; adds complexity and weight without benefit]
+
+[JavaScript frameworks (React, Vue, Svelte). No dynamic functionality required; overkill and harder to explain/maintain]
+
+[CMS (WordPress, etc.). Not needed for static content; adds maintenance burden the client explicitly wants to avoid]
 
 ---
 
@@ -333,12 +366,15 @@ Choose technologies based on project needs.
 
 Plan the major checkpoints for the remaining client-project sprints. Keep these at the milestone level rather than listing every small task.
 
-| Milestone             | What Should Be True at This Point | Key Dependency |
-| --------------------- | --------------------------------- | -------------- |
-| Production ready      |                                   |                |
-| Core site built       |                                   |                |
-| QA / refinement ready |                                   |                |
-| Final delivery ready  |                                   |                |
+| Milestone        | What Should Be True at This Point                                                                                                 | Key Dependency                     |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Production ready | All final client content is confirmed (locations, hours, menu descriptions, photography); placeholders identified and agreed upon | Client/instructor content delivery |
+
+| Core site built | All four pages exist with correct structure and content; navigation works; responsive layout functional at mobile and desktop widths | Production-ready content (or agreed placeholders) |
+
+| QA / refinement ready | Accessibility audit passed; cross-browser and multi-viewport testing complete; all links verified; no console errors | Core site complete |
+
+| Final delivery ready | Pushed to GitHub; README complete; final link works; Done checklist fully satisfied | QA complete |
 
 ---
 
@@ -346,11 +382,16 @@ Plan the major checkpoints for the remaining client-project sprints. Keep these 
 
 Identify at least three.
 
-| Risk / Dependency | Impact              | Likelihood          | Response / Mitigation |
-| ----------------- | ------------------- | ------------------- | --------------------- |
-|                   | Low / Medium / High | Low / Medium / High |                       |
-|                   | Low / Medium / High | Low / Medium / High |                       |
-|                   | Low / Medium / High | Low / Medium / High |                       |
+| Risk / Dependency | Impact | Likelihood | Response / Mitigation |
+| ----------------- | ------ | ---------- | --------------------- |
+
+| Final location addresses, phone numbers, and hours not supplied in time | High | Medium | Build the Locations page structure early with clearly-marked placeholders; confirm content timeline with client at start of production; structure is ready for content to be dropped in |
+
+| Final menu descriptions and prices not supplied | High | Medium | Build the Menu page using the three approved categories and item names already supplied; use placeholder descriptions; confirm final copy before QA |
+
+| Photography not available during production | Medium | High | Design a text-first layout that is fully functional without imagery; add images when supplied; plan alt text strategy in advance per asset notes |
+
+| Scope creep from unresolved features (ordering, reservations, accounts) | Medium | Low | Keep all such features documented in the Out of Scope table; reference the client brief's explicit "do not assume" guidance when questions arise |
 
 ---
 
@@ -366,14 +407,32 @@ Use:
 
 | Task | Priority | Effort | Dependency | Status |
 | ---- | -------- | ------ | ---------- | ------ |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
-|      |          |        |            | To Do  |
+
+| Set up GitHub repository and project file structure | High | Small | None | To Do |
+
+| Build semantic HTML skeleton (landmarks, nav, headings) for all four pages | High | Medium | Repo setup | To Do |
+
+| Write CSS: mobile-first responsive layout, typography, spacing, color | High | Medium | HTML skeleton | To Do |
+
+| Populate Home page with approved company description and brand statement | High | Small | HTML + CSS | To Do |
+
+| Populate Menu page with three approved categories and item names | High | Small | HTML + CSS | To Do |
+
+| Populate About page with approved values and local-connection content | High | Small | HTML + CSS | To Do |
+
+| Build Locations page structure with placeholder content | High | Small | HTML + CSS | To Do |
+
+| Implement mobile navigation toggle (if needed at narrow widths) | Medium | Medium | CSS complete | To Do |
+
+| Insert final client-supplied content (hours, addresses, menu details, images) | High | Medium | Client content delivery | To Do |
+
+| Accessibility audit and fixes (contrast, keyboard, focus, alt text, zoom) | High | Medium | All pages populated | To Do |
+
+| Responsive testing at narrow and wide viewports | High | Small | All pages populated | To Do |
+
+| Cross-browser and device QA | Medium | Small | Accessibility fixes complete | To Do |
+
+| Write README, finalize GitHub, verify deployment link | Medium | Small | QA complete | To Do |
 
 Add rows as necessary.
 
@@ -388,20 +447,20 @@ Before Hill Country Coffee can be considered complete:
 - [ ] Required MVP content is present.
 - [ ] Client facts have not been invented.
 - [ ] Content has been proofread.
-- [ ] [Add project-specific item.]
+- [ ] [All approved CTA language is used where appropriate and no unapproved claims are made.]
 
 ## Responsive Design
 
 - [ ] Required pages work at narrow and wide viewport sizes.
 - [ ] Content reflows without horizontal scrolling caused by the layout.
-- [ ] [Add project-specific item.]
+- [ ] [Navigation is usable and touch-friendly at mobile viewport widths.]
 
 ## Functionality
 
 - [ ] Navigation works.
 - [ ] Required interactive components work.
 - [ ] Links are tested.
-- [ ] [Add project-specific item.]
+- [ ] [No JavaScript console errors on any page.]
 
 ## Accessibility
 
@@ -413,20 +472,20 @@ Before Hill Country Coffee can be considered complete:
 - [ ] Meaningful images have appropriate alternative text.
 - [ ] Links/buttons have understandable labels.
 - [ ] Responsive reflow/zoom has been checked.
-- [ ] [Add project-specific item.]
+- [ ] [No important information exists only within images.]
 
 ## QA
 
 - [ ] Required pages have been tested.
 - [ ] More than one viewport size has been tested.
-- [ ] [Add browser/device checks appropriate to your plan.]
+- [ ] [Tested on at least one mobile device or via mobile device emulation.]
 
 ## GitHub & Handoff
 
 - [ ] Current source files are pushed to GitHub.
 - [ ] README documentation is complete.
 - [ ] Final project link works.
-- [ ] [Add project-specific item.]
+- [ ] [No unused files or debug code remain in the repository.]
 
 ---
 
@@ -434,9 +493,11 @@ Before Hill Country Coffee can be considered complete:
 
 Record anything that would need client/instructor clarification.
 
-1.
-2.
-3.
+1. [What are the final location addresses, phone numbers, and business hours?]
+2. [What are the final menu item descriptions and prices?]
+3. [What final photography or imagery will be provided, and when?]
+4. [Are there dietary or allergen details that should appear on the menu?]
+5. [What social media links should be included in the site?]
 
 Do not silently turn unanswered questions into invented facts.
 
@@ -444,21 +505,21 @@ Do not silently turn unanswered questions into invented facts.
 
 # Final Planning Check
 
-- [ ] I used the supplied client brief.
-- [ ] I used all required personas.
-- [ ] I identified three prioritized business goals.
-- [ ] I wrote one user-need statement per persona.
-- [ ] I prioritized user tasks.
-- [ ] I completed the content inventory and explained how related content should be organized.
-- [ ] I wrote testable functional requirements.
-- [ ] I planned accessibility requirements.
-- [ ] I clearly separated MVP from future/out-of-scope ideas.
-- [ ] I created a sitemap / information architecture based on user tasks and content organization.
-- [ ] I justified my technical approach.
-- [ ] I identified production milestones.
-- [ ] I identified at least three risks/dependencies.
-- [ ] I created a prioritized backlog.
-- [ ] I created a Definition of Done.
-- [ ] I documented open questions instead of inventing answers.
+- [ x ] I used the supplied client brief.
+- [ x ] I used all required personas.
+- [ x ] I identified three prioritized business goals.
+- [ x ] I wrote one user-need statement per persona.
+- [ x ] I prioritized user tasks.
+- [ x ] I completed the content inventory and explained how related content should be organized.
+- [ x ] I wrote testable functional requirements.
+- [ x ] I planned accessibility requirements.
+- [ x ] I clearly separated MVP from future/out-of-scope ideas.
+- [ x ] I created a sitemap / information architecture based on user tasks and content organization.
+- [ x ] I justified my technical approach.
+- [ x ] I identified production milestones.
+- [ x ] I identified at least three risks/dependencies.
+- [ x ] I created a prioritized backlog.
+- [ x ] I created a Definition of Done.
+- [ x ] I documented open questions instead of inventing answers.
 
-- [ ] I stopped at planning: I did not create Week 14 interface or production work.
+- [ x ] I stopped at planning: I did not create Week 14 interface or production work.
