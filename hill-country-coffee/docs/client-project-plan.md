@@ -444,48 +444,48 @@ Before Hill Country Coffee can be considered complete:
 
 ## Content
 
-- [ ] Required MVP content is present.
-- [ ] Client facts have not been invented.
-- [ ] Content has been proofread.
-- [ ] [All approved CTA language is used where appropriate and no unapproved claims are made.]
+- [ x ] Required MVP content is present.
+- [ x ] Client facts have not been invented.
+- [ x ] Content has been proofread.
+- [ x ] [All approved CTA language is used where appropriate and no unapproved claims are made.]
 
 ## Responsive Design
 
-- [ ] Required pages work at narrow and wide viewport sizes.
-- [ ] Content reflows without horizontal scrolling caused by the layout.
-- [ ] [Navigation is usable and touch-friendly at mobile viewport widths.]
+- [ x ] Required pages work at narrow and wide viewport sizes.
+- [ x ] Content reflows without horizontal scrolling caused by the layout.
+- [ x ] [Navigation is usable and touch-friendly at mobile viewport widths.]
 
 ## Functionality
 
-- [ ] Navigation works.
-- [ ] Required interactive components work.
-- [ ] Links are tested.
-- [ ] [No JavaScript console errors on any page.]
+- [ x ] Navigation works.
+- [ x ] Required interactive components work.
+- [ x ] Links are tested.
+- [ x ] [No JavaScript console errors on any page.]
 
 ## Accessibility
 
-- [ ] Semantic HTML has been reviewed.
-- [ ] Heading structure is logical.
-- [ ] Keyboard access has been tested.
-- [ ] Visible focus is present.
-- [ ] Color contrast has been checked.
-- [ ] Meaningful images have appropriate alternative text.
-- [ ] Links/buttons have understandable labels.
-- [ ] Responsive reflow/zoom has been checked.
-- [ ] [No important information exists only within images.]
+- [ x ] Semantic HTML has been reviewed.
+- [ x ] Heading structure is logical.
+- [ x ] Keyboard access has been tested.
+- [ x ] Visible focus is present.
+- [ x ] Color contrast has been checked.
+- [ x ] Meaningful images have appropriate alternative text.
+- [ x ] Links/buttons have understandable labels.
+- [ x ] Responsive reflow/zoom has been checked.
+- [ x ] [No important information exists only within images.]
 
 ## QA
 
-- [ ] Required pages have been tested.
-- [ ] More than one viewport size has been tested.
-- [ ] [Tested on at least one mobile device or via mobile device emulation.]
+- [ x ] Required pages have been tested.
+- [ x ] More than one viewport size has been tested.
+- [ x ] [Tested on at least one mobile device or via mobile device emulation.]
 
 ## GitHub & Handoff
 
-- [ ] Current source files are pushed to GitHub.
-- [ ] README documentation is complete.
-- [ ] Final project link works.
-- [ ] [No unused files or debug code remain in the repository.]
+- [ x ] Current source files are pushed to GitHub.
+- [ x ] README documentation is complete.
+- [ x ] Final project link works.
+- [ x ] [No unused files or debug code remain in the repository.]
 
 ---
 

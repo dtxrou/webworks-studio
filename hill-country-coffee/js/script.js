@@ -14,10 +14,6 @@ Rules:
 
 console.log("Hill Country Coffee production script connected.");
 
-/*
-TODO:
-Add only the JavaScript required by your approved MVP.
-*/
 const btn = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav-menu");
 
