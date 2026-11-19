@@ -100,7 +100,7 @@ Confirm what is already implemented before Week 15 QA.
 
 The project plan remains here:
 
-[Discovery & Sprint Plan](docs/discovery-plan.md)
+[Discovery & Sprint Plan](docs/client-project-plan.md)
 
 ---
 
