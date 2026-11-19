@@ -17,43 +17,56 @@
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="index.html">Hill Country Coffee</a>
-
-        <!--
-      TODO: Build the approved responsive primary navigation from your Week 13 plan.
-      Use clear labels and preserve keyboard access.
-      -->
         <nav aria-label="Primary navigation">
-          <ul class="nav-list">
+          <button
+            class="hamburger"
+            aria-expanded="false"
+            aria-controls="mainNav"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <ul class="nav-list primary-nav nav-menu">
             <li><a href="index.html" aria-current="page">Home</a></li>
-            <!-- Add only MVP destinations approved in Week 13. -->
+            <li><a href="menu.html" aria-current="page">Menu</a></li>
+            <li><a href="locations.html" aria-current="page">Locations</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main id="main-content">
-      <!--
-    TODO: Build the homepage from your approved Week 13 desktop/mobile interface direction.
-    Use approved Hill Country Coffee content only.
-    -->
-
-      <section class="hero">
+      <section class="hero" aria-labelledby="page-title">
         <div class="container">
           <p class="eyebrow">Hill Country Coffee</p>
-          <h1 class="header-primary">Build the approved homepage here.</h1>
+          <h1 class="header-primary">
+            Coffee Made for the Pace of the Hill Country
+          </h1>
           <p>
-            Replace this starter copy with approved client content from the Week
-            13 project package.
+            Hill Country Coffee brings thoughtfully prepared coffee and an
+            easygoing café experience to Central Texas. Inspired by the pace and
+            landscape of the Texas Hill Country, our cafés are designed as
+            comfortable places to meet, work, pause, and enjoy a well-made cup.
+            We serve espresso drinks, brewed coffee, cold beverages, teas, and a
+            rotating selection of café food.
           </p>
+        </div>
+        <div class="container nav-list hero-nav">
+          <a href="locations.html">Find a Location</a>
+          <a href="menu.html">View the Menu</a>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <h2 class="header-secondary">Production Reminder</h2>
+          <h2 class="header-secondary">A Place to Pause</h2>
           <p>
-            Build the MVP defined in your discovery plan. Do not invent
-            additional pages, features, prices, locations, or client facts.
+            Good coffee does not need to be complicated. We focus on quality
+            ingredients, careful preparation, welcoming spaces, and service that
+            feels neighborly rather than formal.
           </p>
         </div>
       </section>

@@ -18,3 +18,22 @@ console.log("Hill Country Coffee production script connected.");
 TODO:
 Add only the JavaScript required by your approved MVP.
 */
+const btn = document.querySelector(".hamburger");
+const nav = document.querySelector(".nav-menu");
+
+btn.addEventListener("click", () => {
+  const open = btn.getAttribute("aria-expanded") === "true";
+  btn.setAttribute("aria-expanded", String(!open));
+  btn.classList.toggle("active", !open);
+  nav.classList.toggle("is-open", !open);
+});
+
+// Close on Escape or link click
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    btn.click();
+  }
+});
+nav.addEventListener("click", (e) => {
+  if (e.target.closest("a")) btn.click();
+});
