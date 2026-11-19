@@ -12,14 +12,6 @@ Your job:
 Do not treat these starter styles as the final client design.
 */
 
-/*
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -36,8 +28,8 @@ body {
   min-width: 320px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
-  color: #334e5c;
-  background: #ffffff;
+  color: var(--text);
+  background: var(--surface);
   line-height: 1.6;
 }
 
@@ -45,14 +37,14 @@ body {
 /* COLOR STYLES */
 /* ############## */
 
-/*
+:root {
   --ink: #1f2933;
   --text: #334e5c;
   --surface: #ffffff;
   --soft: #f3f6f5;
   --border: #cbd5d8;
   --accent: #2f6f66;
-   */
+}
 
 /* ############## */
 /* GENERAL STYLES */
@@ -96,7 +88,7 @@ img {
 }
 
 a {
-  color: #2f6f66;
+  color: var(--accent);
 }
 
 a:focus-visible,
@@ -124,7 +116,7 @@ textarea:focus-visible {
 }
 
 .brand {
-  color: #1f2933;
+  color: var(--ink);
   font-weight: 700;
   text-decoration: none;
 }
@@ -147,7 +139,7 @@ textarea:focus-visible {
 
 .eyebrow {
   margin: 0 0 0.8rem;
-  color: #2f6f66;
+  color: var(--accent);
   font-size: 1.28rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -157,7 +149,7 @@ textarea:focus-visible {
 h1,
 h2,
 h3 {
-  color: #1f2933;
+  color: var(--ink);
   line-height: 1.2;
 }
 
@@ -184,7 +176,7 @@ h1 {
 }
 
 /* ############## */
-/* Hamburger Menu */
+/* HAMBURGER MENU */
 /* ############## */
 
 .hamburger {
@@ -214,11 +206,11 @@ h1 {
 }
 
 /* ############## */
-/* Header Section */
+/* HEADER SECTION */
 /* ############## */
 
 .site-header {
-  border-bottom: 1px solid #cbd5d8;
+  border-bottom: 1px solid var(--border);
   background: #fff;
   position: sticky;
   top: 0;
@@ -234,11 +226,11 @@ h1 {
 }
 
 /* ############## */
-/* Hero Section */
+/* HERO SECTION */
 /* ############## */
 .hero {
   padding: 6.4rem 0;
-  background: #f3f6f5;
+  background: var(--soft);
 }
 
 .hero-nav {
@@ -247,7 +239,7 @@ h1 {
 }
 
 /* ############## */
-/* Menu Section */
+/* MENU PAGE */
 /* ############## */
 
 .menu-section {
@@ -260,7 +252,7 @@ h1 {
 
 .menu-list li {
   margin-bottom: 1.2rem;
-  border-bottom: 1px solid #cbd5d8;
+  border-bottom: 1px solid var(--border);
 }
 
 .menu-heading {
@@ -268,7 +260,7 @@ h1 {
 }
 
 /* ############## */
-/* Locations Section */
+/* LOCATIONS PAGE */
 /* ############## */
 
 .locations-header h3,
@@ -279,24 +271,24 @@ h1 {
 .days p,
 .hours p {
   margin-bottom: 1.8rem;
-  border-bottom: 1px solid #cbd5d8;
+  border-bottom: 1px solid var(--border);
 }
 
 /* ############## */
-/* About Section */
+/* ABOUT PAGE */
 /* ############## */
 
 .about-section {
   padding: 2.4rem 0;
-  border-bottom: 1px solid #cbd5d8;
+  border-bottom: 1px solid var(--border);
 }
 
 /* ############## */
-/* Footer Section */
+/* FOOTER SECTION */
 /* ############## */
 .site-footer {
   padding: 3.8rem 0;
-  background: #1f2933;
+  background: var(--ink);
   color: #fff;
 }
 
@@ -320,6 +312,10 @@ Recommended order:
 7. page-specific layouts
 8. responsive rules
 */
+
+/* ############## */
+/* RESPONSIVE RULES */
+/* ############## */
 
 @media (max-width: 700px) {
   .header-inner {
