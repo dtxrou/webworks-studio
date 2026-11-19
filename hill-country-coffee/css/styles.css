@@ -12,20 +12,22 @@ Your job:
 Do not treat these starter styles as the final client design.
 */
 
-:root {
-  --ink: #1f2933;
-  --text: #334e5c;
-  --surface: #ffffff;
-  --soft: #f3f6f5;
-  --border: #cbd5d8;
-  --accent: #2f6f66;
-}
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -33,9 +35,59 @@ body {
   margin: 0;
   min-width: 320px;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--text);
-  background: var(--surface);
+  font-size: 1.6rem;
+  color: #334e5c;
+  background: #ffffff;
   line-height: 1.6;
+}
+
+/* ############## */
+/* COLOR STYLES */
+/* ############## */
+
+/*
+  --ink: #1f2933;
+  --text: #334e5c;
+  --surface: #ffffff;
+  --soft: #f3f6f5;
+  --border: #cbd5d8;
+  --accent: #2f6f66;
+   */
+
+/* ############## */
+/* GENERAL STYLES */
+/* ############## */
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.container {
+  width: min(1120px, calc(100% - 3.2rem)); /* was 2rem */
+  margin-inline: auto;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+.grid--1-cols {
+  grid-template-columns: 1fr;
+}
+
+.grid--2-cols {
+  grid-template-columns: 60fr 40fr;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 img {
@@ -44,7 +96,7 @@ img {
 }
 
 a {
-  color: var(--accent);
+  color: #2f6f66;
 }
 
 a:focus-visible,
@@ -63,34 +115,16 @@ textarea:focus-visible {
   z-index: 1000;
   background: #fff;
   color: #111;
-  padding: .75rem 1rem;
+  padding: 1.2rem 1.6rem;
 }
 
 .skip-link:focus {
-  left: 1rem;
-  top: 1rem;
-}
-
-.container {
-  width: min(1120px, calc(100% - 2rem));
-  margin-inline: auto;
-}
-
-.site-header {
-  border-bottom: 1px solid var(--border);
-  background: #fff;
-}
-
-.header-inner {
-  min-height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  left: 1.6rem;
+  top: 1.6rem;
 }
 
 .brand {
-  color: var(--ink);
+  color: #1f2933;
   font-weight: 700;
   text-decoration: none;
 }
@@ -98,7 +132,7 @@ textarea:focus-visible {
 .nav-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 1.6rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -109,40 +143,89 @@ textarea:focus-visible {
   text-decoration: none;
 }
 
-.hero {
-  padding: 4rem 0;
-  background: var(--soft);
-}
-
 .section {
-  padding: 4rem 0;
+  padding: 8.2rem 0;
 }
 
 .eyebrow {
-  margin: 0 0 .5rem;
-  color: var(--accent);
-  font-size: .8rem;
+  margin: 0 0 0.8rem;
+  color: #2f6f66;
+  font-size: 1.28rem;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 h1,
 h2,
 h3 {
-  color: var(--ink);
+  color: #1f2933;
   line-height: 1.2;
 }
 
 h1 {
-  margin-top: 0;
-  font-size: clamp(2.2rem, 7vw, 4.4rem);
+  font-size: clamp(3.52rem, 7vw, 7.04rem);
 }
 
+.header-primary {
+  margin-bottom: 4.6rem;
+}
+
+.header-secondary {
+  margin-bottom: 2.2rem;
+}
+
+/* ############## */
+/* Header Section */
+/* ############## */
+
+.site-header {
+  border-bottom: 1px solid #cbd5d8;
+  background: #fff;
+}
+
+.header-inner {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+/* ############## */
+/* Hero Section */
+/* ############## */
+.hero {
+  padding: 6.4rem 0;
+  background: #f3f6f5;
+}
+
+/* ############## */
+/* Menu Section */
+/* ############## */
+
+/* ############## */
+/* Locations Section */
+/* ############## */
+
+/* ############## */
+/* About Section */
+/* ############## */
+
+/* ############## */
+/* Footer Section */
+/* ############## */
 .site-footer {
-  padding: 2rem 0;
-  background: var(--ink);
+  padding: 3.8rem 0;
+  background: #1f2933;
   color: #fff;
+}
+
+.site-footer p {
+  margin-bottom: 1.8rem;
+}
+.site-footer p:first-of-type {
+  margin-top: 1.2rem;
 }
 
 /*
@@ -163,7 +246,7 @@ Recommended order:
   .header-inner {
     align-items: flex-start;
     flex-direction: column;
-    gap: .75rem;
-    padding-block: 1rem;
+    gap: 1.2rem;
+    padding-block: 1.6rem;
   }
 }
