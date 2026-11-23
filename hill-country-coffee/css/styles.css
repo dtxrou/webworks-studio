@@ -304,20 +304,6 @@ h1 {
   margin-top: 1.2rem;
 }
 
-/*
-TODO: Add the approved Hill Country Coffee visual system below.
-
-Recommended order:
-1. typography
-2. color system
-3. spacing/content widths
-4. header/navigation
-5. buttons/links
-6. repeated cards/components
-7. page-specific layouts
-8. responsive rules
-*/
-
 /* ############## */
 /* RESPONSIVE RULES */
 /* ############## */
@@ -359,5 +345,19 @@ Recommended order:
   }
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-info {
+    grid-row: 1;
+  }
+
+  .menu-tea-img,
+  .menu-coffee-img,
+  .menu-food-img {
+    width: 50%;
   }
 }
