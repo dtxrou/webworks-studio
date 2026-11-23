@@ -236,6 +236,15 @@ h1 {
 .hero {
   padding: 6.4rem 0;
   background: var(--soft);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/hero-img.jpg);
+  background-size: cover;
+}
+
+.hero h1,
+.hero p {
+  color: var(--soft);
 }
 
 .hero-nav {
