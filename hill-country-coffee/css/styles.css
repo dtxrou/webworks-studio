@@ -351,6 +351,7 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  /* ##### MENU PAGE ##### */
   .menu-info {
     grid-row: 1;
   }
@@ -359,5 +360,11 @@ h1 {
   .menu-coffee-img,
   .menu-food-img {
     width: 50%;
+  }
+
+  .menu-img-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
