@@ -240,16 +240,18 @@ h1 {
 /* ############## */
 .hero {
   padding: 6.4rem 0;
+  background: var(--soft);
+}
+
+.main-hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/hero-img.jpg);
   background-size: cover;
-  background-size: cover;
-  /* background: var(--soft); */
 }
 
-.hero h1,
-.hero p {
+.main-hero h1,
+.main-hero p {
   color: var(--surface);
 }
 
