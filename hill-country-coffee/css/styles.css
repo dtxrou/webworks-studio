@@ -100,6 +100,11 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 
+a:link,
+a:visited {
+  transition: all 0.3s;
+}
+
 a:hover,
 a:active {
   color: var(--ink);
@@ -235,7 +240,39 @@ h1 {
 /* ############## */
 .hero {
   padding: 6.4rem 0;
-  background: var(--soft);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/hero-img.jpg);
+  background-size: cover;
+  background-size: cover;
+  /* background: var(--soft); */
+}
+
+.hero h1,
+.hero p {
+  color: var(--surface);
+}
+
+.hero-btn-1 {
+  border-radius: 3rem;
+  background-color: var(--surface);
+  padding: 1rem;
+}
+.hero-btn-2 {
+  border-radius: 3rem;
+  background-color: var(--accent);
+  padding: 1rem;
+  color: var(--surface);
+}
+
+.hero-btn-1:hover {
+  background-color: var(--accent);
+  color: var(--surface);
+}
+
+.hero-btn-2:hover {
+  background-color: var(--surface);
+  color: var(--accent);
 }
 
 .hero-nav {
