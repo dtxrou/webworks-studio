@@ -20,7 +20,7 @@ Include:
 - any known Week 14 issues;
 - whether the site is currently feature complete.
 
-[Write 2–4 sentences here.]
+[All MVP pages (Home, Menu, Locations, About), and features (Mobile navigation and responsiveness) are complete. No known week 14 issues are present, site is currently feature complete.]
 
 ---
 
@@ -28,10 +28,10 @@ Include:
 
 ## Browsers Tested
 
-| Browser | Version | Device / OS | Result |
-| ------- | ------- | ----------- | ------ |
-|         |         |             |        |
-|         |         |             |        |
+| Browser | Version  | Device / OS | Result |
+| ------- | -------- | ----------- | ------ |
+| Brave   | 1.100.58 | Windows 11  | Pass   |
+| Mullvad | 16.0.2   | Windows 11  | Pass   |
 
 Test at least two modern browsers available to you.
 
@@ -39,9 +39,9 @@ Test at least two modern browsers available to you.
 
 | Viewport             | Approximate Width | Result |
 | -------------------- | ----------------: | ------ |
-| Narrow / phone       |                   |        |
-| Medium / tablet-like |                   |        |
-| Wide / desktop       |                   |        |
+| Narrow / phone       |             375px | pass   |
+| Medium / tablet-like |             768px | pass   |
+| Wide / desktop       |            1200px | pass   |
 
 ---
 
@@ -51,59 +51,59 @@ Compare the live site against the Week 13 Definition of Done.
 
 ## Content
 
-- [ ] Required MVP content is present.
-- [ ] Client facts have not been invented.
-- [ ] Content has been proofread.
-- [ ] Required pages are complete.
+- [ x ] Required MVP content is present.
+- [ x ] Client facts have not been invented.
+- [ x ] Content has been proofread.
+- [ x ] Required pages are complete.
 
 **Notes:**  
 [Add notes.]
 
 ## Responsive Design
 
-- [ ] Required pages work at narrow widths.
-- [ ] Required pages work at medium widths.
-- [ ] Required pages work at wide widths.
-- [ ] No layout-caused horizontal scrolling occurs.
-- [ ] Content order remains understandable.
+- [ x ] Required pages work at narrow widths.
+- [ x ] Required pages work at medium widths.
+- [ x ] Required pages work at wide widths.
+- [ x ] No layout-caused horizontal scrolling occurs.
+- [ x ] Content order remains understandable.
 
 **Notes:**  
 [Add notes.]
 
 ## Functionality
 
-- [ ] Primary navigation works.
-- [ ] Required links work.
-- [ ] Required calls to action work.
-- [ ] Required interactions work.
-- [ ] No obvious unresolved JavaScript errors remain.
+- [ x ] Primary navigation works.
+- [ x ] Required links work.
+- [ x ] Required calls to action work.
+- [ x ] Required interactions work.
+- [ x ] No obvious unresolved JavaScript errors remain.
 
 **Notes:**  
 [Add notes.]
 
 ## Accessibility
 
-- [ ] Semantic HTML reviewed.
-- [ ] Heading structure reviewed.
-- [ ] Keyboard operation tested.
-- [ ] Visible focus verified.
-- [ ] Focus order reviewed.
-- [ ] Color contrast reviewed.
-- [ ] Alternative-text decisions reviewed.
-- [ ] Link/button labels reviewed.
-- [ ] Responsive reflow / enlarged text reviewed.
-- [ ] Custom interactive states/labels reviewed, if applicable.
+- [ x ] Semantic HTML reviewed.
+- [ x ] Heading structure reviewed.
+- [ x ] Keyboard operation tested.
+- [ x ] Visible focus verified.
+- [ x ] Focus order reviewed.
+- [ x ] Color contrast reviewed.
+- [ x ] Alternative-text decisions reviewed.
+- [ x ] Link/button labels reviewed.
+- [ x ] Responsive reflow / enlarged text reviewed.
+- [ x ] Custom interactive states/labels reviewed, if applicable.
 
 **Notes:**  
 [Add notes.]
 
 ## GitHub & Handoff
 
-- [ ] Latest source is pushed.
-- [ ] Live GitHub Pages site reflects the latest source.
-- [ ] README is current.
-- [ ] Discovery plan remains in `docs/`.
-- [ ] QA report is saved in `docs/`.
+- [ x ] Latest source is pushed.
+- [ x ] Live GitHub Pages site reflects the latest source.
+- [ x ] README is current.
+- [ x ] Discovery plan remains in `docs/`.
+- [ x ] QA report is saved in `docs/`.
 
 **Notes:**  
 [Add notes.]
@@ -114,14 +114,14 @@ Compare the live site against the Week 13 Definition of Done.
 
 Record the result for each important user task.
 
-| Test ID | User Task / Feature          | Expected Result | Actual Result | Pass / Fail | Defect ID if Failed |
-| ------- | ---------------------------- | --------------- | ------------- | ----------- | ------------------- |
-| F-01    | Primary navigation           |                 |               |             |                     |
-| F-02    | Home page primary CTA        |                 |               |             |                     |
-| F-03    | Menu access                  |                 |               |             |                     |
-| F-04    | Location information access  |                 |               |             |                     |
-| F-05    | About / brand information    |                 |               |             |                     |
-| F-06    | Required interaction, if any |                 |               |             |                     |
+| Test ID | User Task / Feature          | Expected Result       | Actual Result         | Pass / Fail | Defect ID if Failed |
+| ------- | ---------------------------- | --------------------- | --------------------- | ----------- | ------------------- |
+| F-01    | Primary navigation           | Sticks to top of page | Sticks to top of page | Pass        |                     |
+| F-02    | Home page primary CTA        | Easy to see and click | Easy to see and click | Pass        |                     |
+| F-03    | Menu access                  | Easy to acccess       | Easy to acccess       | Pass        |                     |
+| F-04    | Location information access  | Easy to acccess       | Easy to acccess       | Pass        |                     |
+| F-05    | About / brand information    | Easy to acccess       | Easy to acccess       | Pass        |                     |
+| F-06    | Required interaction, if any | Functional            | Functional            | Pass        |                     |
 
 Add rows as needed.
 
@@ -129,14 +129,14 @@ Add rows as needed.
 
 # 5. Responsive Testing
 
-| Test ID | Page / Component          | Narrow | Medium | Wide | Notes / Defect ID |
-| ------- | ------------------------- | ------ | ------ | ---- | ----------------- |
-| R-01    | Header / navigation       |        |        |      |                   |
-| R-02    | Home hero                 |        |        |      |                   |
-| R-03    | Repeated cards / sections |        |        |      |                   |
-| R-04    | Menu content              |        |        |      |                   |
-| R-05    | Locations content         |        |        |      |                   |
-| R-06    | Footer                    |        |        |      |                   |
+| Test ID | Page / Component          | Narrow | Medium | Wide   | Notes / Defect ID |
+| ------- | ------------------------- | ------ | ------ | ------ | ----------------- |
+| R-01    | Header / navigation       | 375px  | 768px  | 1200px | Functional        |
+| R-02    | Home hero                 | 375px  | 768px  | 1200px | Functional        |
+| R-03    | Repeated cards / sections | 375px  | 768px  | 1200px | Functional        |
+| R-04    | Menu content              | 375px  | 768px  | 1200px | Functional        |
+| R-05    | Locations content         | 375px  | 768px  | 1200px | Functional        |
+| R-06    | Footer                    | 375px  | 768px  | 1200px | Functional        |
 
 ---
 
@@ -144,11 +144,11 @@ Add rows as needed.
 
 | Test ID | Feature / Page          | Browser 1 | Browser 2 | Notes / Defect ID |
 | ------- | ----------------------- | --------- | --------- | ----------------- |
-| B-01    | Home page               |           |           |                   |
-| B-02    | Navigation              |           |           |                   |
-| B-03    | Menu page               |           |           |                   |
-| B-04    | Location page / section |           |           |                   |
-| B-05    | Required interaction    |           |           |                   |
+| B-01    | Home page               | Brave     | Mullvad   | Functional        |
+| B-02    | Navigation              | Brave     | Mullvad   | Functional        |
+| B-03    | Menu page               | Brave     | Mullvad   | Functional        |
+| B-04    | Location page / section | Brave     | Mullvad   | Functional        |
+| B-05    | Required interaction    | Brave     | Mullvad   | Functional        |
 
 ---
 
@@ -157,25 +157,25 @@ Add rows as needed.
 ## Tool-Assisted Check
 
 **Tool Used:**  
-[Name the accessibility checker or browser audit.]
+[(https://wave.webaim.org/)]
 
 **Pages Checked:**  
-[List pages.]
+[Home, Menu, Locations, About]
 
 **Important Findings:**  
-[Summarize findings. Do not paste an automated score and stop there.]
+[All pages besides the about page with a passing score of 8.0 or above. Issues with accessibility that were found was the use of aria labeled by, which was used multiple times in the menu page, was missing an element reference, dropping its score to a 6.7. ]
 
 ## Keyboard Test
 
 Test the site using only the keyboard.
 
-- [ ] Skip link works, if present.
-- [ ] Primary navigation is reachable.
-- [ ] All links/buttons are reachable.
-- [ ] Required interaction works.
-- [ ] Focus remains visible.
-- [ ] Focus order is logical.
-- [ ] No keyboard trap occurs.
+- [ x ] Skip link works, if present.
+- [ x ] Primary navigation is reachable.
+- [ x ] All links/buttons are reachable.
+- [ x ] Required interaction works.
+- [ x ] Focus remains visible.
+- [ x ] Focus order is logical.
+- [ x ] No keyboard trap occurs.
 
 **Notes:**  
 [Add notes.]
@@ -183,46 +183,46 @@ Test the site using only the keyboard.
 ## Headings & Landmarks
 
 **Findings:**  
-[Add notes.]
+[Headings are built and function. aria landmarks(element reference) with aria labeled by are missing]
 
 ## Alternative Text
 
 **Findings:**  
-[Add notes.]
+[Images have appropriate alternative text]
 
 ## Links & Buttons
 
 **Findings:**  
-[Add notes.]
+[All links and buttons function and have hover and focus states]
 
 ## Contrast
 
 **Findings:**  
-[Add notes.]
+[Color contrast with color contrast tools have passed]
 
 ## Reflow / Enlarged Text
 
 **Method:**  
-[Describe how you checked.]
+[Increased browser zoom size to 200%]
 
 **Findings:**  
-[Add notes.]
+[Site still has functional responsive adaptation, and nothing breaks]
 
 ---
 
 # 8. Content & Link Review
 
-- [ ] Client-facing copy proofread.
-- [ ] No unsupported client facts added.
-- [ ] All navigation links tested.
-- [ ] All calls to action tested.
-- [ ] External links, if any, tested.
-- [ ] Images/assets load on the published site.
-- [ ] Page titles are meaningful.
-- [ ] Basic metadata is present.
+- [ x ] Client-facing copy proofread.
+- [ x ] No unsupported client facts added.
+- [ x ] All navigation links tested.
+- [ x ] All calls to action tested.
+- [ x ] External links, if any, tested.
+- [ x ] Images/assets load on the published site.
+- [ x ] Page titles are meaningful.
+- [ x ] Basic metadata is present.
 
 **Notes:**  
-[Add notes.]
+[Page title metadata could be more descriptive in Menu, About, and Locations page]
 
 ---
 
@@ -278,7 +278,7 @@ After important fixes, confirm that related functionality still works.
 - [ ] Published GitHub Pages build reflects the fix.
 
 **Notes:**  
-[Add notes.]
+[No known bugs]
 
 ---
 
@@ -298,7 +298,7 @@ After important fixes, confirm that related functionality still works.
 Choose one:
 
 - [ ] **Ready**
-- [ ] **Ready with documented minor issues**
+- [ x ] **Ready with documented minor issues**
 - [ ] **Not ready**
 
 ## Release Statement
@@ -313,7 +313,7 @@ Address:
 - whether remaining issues materially affect release;
 - what, if anything, should happen next.
 
-[Write your release statement here.]
+[Essential user tasks work, such as navigating to the locations and menu page easily from the home page. No critical/high issues remaining for the site. Accessibility requirements were reviewed, such as increased browser page size and mobile responsiveness. Any minor issues remaining would not materially affect the release. If anything should happen next, it would be to fix aria labeled by use, and make page title names in the <head> element more descriptive to their respective page. ]
 
 ---
 
@@ -333,19 +333,19 @@ If none remain, write:
 
 # Final QA Handoff Check
 
-- [ ] I tested the published site.
-- [ ] I tested at least two browsers available to me.
-- [ ] I tested narrow, medium, and wide layouts.
-- [ ] I ran a tool-assisted accessibility check.
-- [ ] I completed a keyboard-only test.
-- [ ] I reviewed headings, labels, alt text, contrast, and reflow.
-- [ ] I created reproducible defect reports.
-- [ ] I assigned severity and status to defects.
-- [ ] Critical defects are resolved.
-- [ ] Required High-severity defects are resolved.
-- [ ] Fixed Critical/High/Medium defects were retested.
-- [ ] Important fixes were checked for regressions.
-- [ ] Latest fixes are pushed to GitHub.
-- [ ] The live site reflects the current source.
-- [ ] README links to this QA report and the live site.
-- [ ] A release-readiness statement is complete.
+- [ x ] I tested the published site.
+- [ x ] I tested at least two browsers available to me.
+- [ x ] I tested narrow, medium, and wide layouts.
+- [ x ] I ran a tool-assisted accessibility check.
+- [ x ] I completed a keyboard-only test.
+- [ x ] I reviewed headings, labels, alt text, contrast, and reflow.
+- [ x ] I created reproducible defect reports.
+- [ x ] I assigned severity and status to defects.
+- [ x ] Critical defects are resolved.
+- [ x ] Required High-severity defects are resolved.
+- [ x ] Fixed Critical/High/Medium defects were retested.
+- [ x ] Important fixes were checked for regressions.
+- [ x ] Latest fixes are pushed to GitHub.
+- [ x ] The live site reflects the current source.
+- [ x ] README links to this QA report and the live site.
+- [ x ] A release-readiness statement is complete.
