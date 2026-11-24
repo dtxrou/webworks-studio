@@ -185,6 +185,11 @@ h1 {
   text-decoration: none;
 }
 
+.hero {
+  padding: 6.4rem 0;
+  background: var(--soft);
+}
+
 /* ############## */
 /* HAMBURGER MENU */
 /* ############## */
@@ -238,10 +243,6 @@ h1 {
 /* ############## */
 /* HERO SECTION */
 /* ############## */
-.hero {
-  padding: 6.4rem 0;
-  background: var(--soft);
-}
 
 .main-hero {
   background-image:
@@ -320,6 +321,10 @@ h1 {
 .hours p {
   margin-bottom: 1.8rem;
   border-bottom: 1px solid var(--border);
+}
+
+.locations-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* ############## */
