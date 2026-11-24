@@ -44,6 +44,7 @@ body {
   --soft: #f3f6f5;
   --border: #cbd5d8;
   --accent: #2f6f66;
+  --accent-bright: #6fc3b8;
 }
 
 /* ############## */
@@ -149,7 +150,7 @@ a:active {
 
 .eyebrow {
   margin: 0 0 0.8rem;
-  color: var(--accent);
+  color: var(--accent-bright);
   font-size: 1.28rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -251,8 +252,8 @@ h1 {
   background-size: cover;
 }
 
-.main-hero h1,
-.main-hero p {
+.hero-header,
+.hero-text {
   color: var(--surface);
 }
 
