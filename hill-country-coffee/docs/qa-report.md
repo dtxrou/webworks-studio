@@ -163,7 +163,7 @@ Add rows as needed.
 [Home, Menu, Locations, About]
 
 **Important Findings:**  
-[All pages besides the about page with a passing score of 8.0 or above. Issues with accessibility that were found was the use of aria labeled by, which was used multiple times in the menu page, was missing an element reference, dropping its score to a 6.7. ]
+[All pages with a passing score of 9.0 or above.]
 
 ## Keyboard Test
 
@@ -183,7 +183,7 @@ Test the site using only the keyboard.
 ## Headings & Landmarks
 
 **Findings:**  
-[Headings are built and function. aria landmarks(element reference) with aria labeled by are missing]
+[Headings are built and function. Aria landmarks(element reference) incorporated]
 
 ## Alternative Text
 
@@ -222,7 +222,7 @@ Test the site using only the keyboard.
 - [ x ] Basic metadata is present.
 
 **Notes:**  
-[Page title metadata could be more descriptive in Menu, About, and Locations page]
+[Add notes.]
 
 ---
 
@@ -297,8 +297,8 @@ After important fixes, confirm that related functionality still works.
 
 Choose one:
 
-- [ ] **Ready**
-- [ x ] **Ready with documented minor issues**
+- [ x ] **Ready**
+- [ ] **Ready with documented minor issues**
 - [ ] **Not ready**
 
 ## Release Statement
@@ -313,13 +313,15 @@ Address:
 - whether remaining issues materially affect release;
 - what, if anything, should happen next.
 
-[Essential user tasks work, such as navigating to the locations and menu page easily from the home page. No critical/high issues remaining for the site. Accessibility requirements were reviewed, such as increased browser page size and mobile responsiveness. Any minor issues remaining would not materially affect the release. If anything should happen next, it would be to fix aria labeled by use, and make page title names in the <head> element more descriptive to their respective page. ]
+[Essential user tasks work, such as navigating to the locations and menu page easily from the home page, and the about page is accessible through the navigation menu. No critical/high issues remaining for the site. Accessibility requirements were reviewed, such as increased browser page size and mobile responsiveness. Any minor issues remaining would not materially affect the release. If anything should happen next, it would be to contact the client for approved menu descriptions and prices, then add them to the site. ]
 
 ---
 
 # 14. Remaining Issues
 
 If any issues remain, list them here.
+
+[No known release-blocking issues remain.]
 
 | Issue | Severity | Why It Remains | Recommended Next Step |
 | ----- | -------- | -------------- | --------------------- |
