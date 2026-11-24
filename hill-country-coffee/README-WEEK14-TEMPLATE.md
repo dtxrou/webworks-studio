@@ -45,9 +45,9 @@ Update this section using your Week 13 MVP.
 
 ### Known Issues / Dependencies
 
-- [ Final location details (addresses, phones, hours) not yet supplied by client; placeholders marked with [To be confirmed] ]
-- [ Final menu descriptions and prices not supplied; only approved category names and item names are present ]
-- [ No photography inserted yet; site is designed to be fully functional without imagery ]
+- [ Final location details (addresses, phones, hours) not yet supplied by client; placeholders marked with [To be confirmed] (Client approved now) ]
+- [ Final menu descriptions and prices not supplied; only approved category names and item names are present (Not yet approved) ]
+- [ No photography inserted yet; site is designed to be fully functional without imagery (Client approved now) ]
 
 ### Intentionally Deferred / Out of Scope
 
