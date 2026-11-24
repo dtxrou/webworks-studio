@@ -3,10 +3,10 @@
 **WebWorks Studio**  
 **Week 15: Test, Refine & Deliver — Quality Assurance**
 
-**Student:** [Your Name]  
-**Test Date:** [Date]  
-**Live Site URL:** [Paste the published GitHub Pages URL]  
-**Repository URL:** [Paste the Hill Country Coffee GitHub repository/folder URL]
+**Student:** [Dorian Trevino]  
+**Test Date:** [11/23/2026]  
+**Live Site URL:** [https://dtxrou.github.io/webworks-studio/hill-country-coffee/]  
+**Repository URL:** [https://github.com/dtxrou/webworks-studio/tree/main/hill-country-coffee]
 
 ---
 
@@ -29,19 +29,19 @@ Include:
 ## Browsers Tested
 
 | Browser | Version | Device / OS | Result |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
+| ------- | ------- | ----------- | ------ |
+|         |         |             |        |
+|         |         |             |        |
 
 Test at least two modern browsers available to you.
 
 ## Representative Viewports
 
-| Viewport | Approximate Width | Result |
-|---|---:|---|
-| Narrow / phone |  |  |
-| Medium / tablet-like |  |  |
-| Wide / desktop |  |  |
+| Viewport             | Approximate Width | Result |
+| -------------------- | ----------------: | ------ |
+| Narrow / phone       |                   |        |
+| Medium / tablet-like |                   |        |
+| Wide / desktop       |                   |        |
 
 ---
 
@@ -114,14 +114,14 @@ Compare the live site against the Week 13 Definition of Done.
 
 Record the result for each important user task.
 
-| Test ID | User Task / Feature | Expected Result | Actual Result | Pass / Fail | Defect ID if Failed |
-|---|---|---|---|---|---|
-| F-01 | Primary navigation |  |  |  |  |
-| F-02 | Home page primary CTA |  |  |  |  |
-| F-03 | Menu access |  |  |  |  |
-| F-04 | Location information access |  |  |  |  |
-| F-05 | About / brand information |  |  |  |  |
-| F-06 | Required interaction, if any |  |  |  |  |
+| Test ID | User Task / Feature          | Expected Result | Actual Result | Pass / Fail | Defect ID if Failed |
+| ------- | ---------------------------- | --------------- | ------------- | ----------- | ------------------- |
+| F-01    | Primary navigation           |                 |               |             |                     |
+| F-02    | Home page primary CTA        |                 |               |             |                     |
+| F-03    | Menu access                  |                 |               |             |                     |
+| F-04    | Location information access  |                 |               |             |                     |
+| F-05    | About / brand information    |                 |               |             |                     |
+| F-06    | Required interaction, if any |                 |               |             |                     |
 
 Add rows as needed.
 
@@ -129,26 +129,26 @@ Add rows as needed.
 
 # 5. Responsive Testing
 
-| Test ID | Page / Component | Narrow | Medium | Wide | Notes / Defect ID |
-|---|---|---|---|---|---|
-| R-01 | Header / navigation |  |  |  |  |
-| R-02 | Home hero |  |  |  |  |
-| R-03 | Repeated cards / sections |  |  |  |  |
-| R-04 | Menu content |  |  |  |  |
-| R-05 | Locations content |  |  |  |  |
-| R-06 | Footer |  |  |  |  |
+| Test ID | Page / Component          | Narrow | Medium | Wide | Notes / Defect ID |
+| ------- | ------------------------- | ------ | ------ | ---- | ----------------- |
+| R-01    | Header / navigation       |        |        |      |                   |
+| R-02    | Home hero                 |        |        |      |                   |
+| R-03    | Repeated cards / sections |        |        |      |                   |
+| R-04    | Menu content              |        |        |      |                   |
+| R-05    | Locations content         |        |        |      |                   |
+| R-06    | Footer                    |        |        |      |                   |
 
 ---
 
 # 6. Cross-Browser Testing
 
-| Test ID | Feature / Page | Browser 1 | Browser 2 | Notes / Defect ID |
-|---|---|---|---|---|
-| B-01 | Home page |  |  |  |
-| B-02 | Navigation |  |  |  |
-| B-03 | Menu page |  |  |  |
-| B-04 | Location page / section |  |  |  |
-| B-05 | Required interaction |  |  |  |
+| Test ID | Feature / Page          | Browser 1 | Browser 2 | Notes / Defect ID |
+| ------- | ----------------------- | --------- | --------- | ----------------- |
+| B-01    | Home page               |           |           |                   |
+| B-02    | Navigation              |           |           |                   |
+| B-03    | Menu page               |           |           |                   |
+| B-04    | Location page / section |           |           |                   |
+| B-05    | Required interaction    |           |           |                   |
 
 ---
 
@@ -231,23 +231,25 @@ Test the site using only the keyboard.
 Use one row per defect.
 
 Severity:
+
 - Critical
 - High
 - Medium
 - Low
 
 Status:
+
 - Open
 - In Progress
 - Fixed — Needs Retest
 - Verified Fixed
 - Deferred
 
-| ID | Title | Severity | Page / Location | Steps to Reproduce | Expected | Actual | Status | Resolution / Retest Notes |
-|---|---|---|---|---|---|---|---|---|
-| BUG-001 |  |  |  |  |  |  |  |  |
-| BUG-002 |  |  |  |  |  |  |  |  |
-| BUG-003 |  |  |  |  |  |  |  |  |
+| ID      | Title | Severity | Page / Location | Steps to Reproduce | Expected | Actual | Status | Resolution / Retest Notes |
+| ------- | ----- | -------- | --------------- | ------------------ | -------- | ------ | ------ | ------------------------- |
+| BUG-001 |       |          |                 |                    |          |        |        |                           |
+| BUG-002 |       |          |                 |                    |          |        |        |                           |
+| BUG-003 |       |          |                 |                    |          |        |        |                           |
 
 Add rows as needed.
 
@@ -257,10 +259,10 @@ Add rows as needed.
 
 Record every corrected Critical, High, and Medium defect.
 
-| Defect ID | Fix Commit / Description | Retest Steps | Result | Final Status |
-|---|---|---|---|---|
-|  |  |  | Pass / Fail |  |
-|  |  |  | Pass / Fail |  |
+| Defect ID | Fix Commit / Description | Retest Steps | Result      | Final Status |
+| --------- | ------------------------ | ------------ | ----------- | ------------ |
+|           |                          |              | Pass / Fail |              |
+|           |                          |              | Pass / Fail |              |
 
 ---
 
@@ -283,11 +285,11 @@ After important fixes, confirm that related functionality still works.
 # 12. Final Defect Summary
 
 | Severity | Found | Verified Fixed | Remaining |
-|---|---:|---:|---:|
-| Critical |  |  |  |
-| High |  |  |  |
-| Medium |  |  |  |
-| Low |  |  |  |
+| -------- | ----: | -------------: | --------: |
+| Critical |       |                |           |
+| High     |       |                |           |
+| Medium   |       |                |           |
+| Low      |       |                |           |
 
 ---
 
@@ -320,8 +322,8 @@ Address:
 If any issues remain, list them here.
 
 | Issue | Severity | Why It Remains | Recommended Next Step |
-|---|---|---|---|
-|  |  |  |  |
+| ----- | -------- | -------------- | --------------------- |
+|       |          |                |                       |
 
 If none remain, write:
 
