@@ -97,7 +97,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #111;
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
 
