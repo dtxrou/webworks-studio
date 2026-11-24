@@ -150,7 +150,7 @@ Update this section using your Week 13 MVP.
 
 ### Additional Libraries
 
-[None]
+[None.]
 
 ---
 
